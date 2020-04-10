@@ -1,12 +1,18 @@
 <template>
-  <div v-bind:class="{ 'mode-dark': darkMode }">
+  <div v-bind:class="{ 'mode-dark': darkMode, 'mode-large-font': largeFont }">
     <transition name="fade" appear>
       <div class="bg-white dark:bg-black">
-        <button @click="toggleDarkMode()" title="Modo oscuro/claro">
-          <span v-if="!darkMode">🌙</span>
-          <span v-if="darkMode">🌞</span>
-        </button>
-          <slot/>
+        <ClientOnly>
+          <aside class="button-group">
+            <button @click="toggleDarkMode()" title="Modo oscuro/claro">
+              <icon :name="darkMode ? 'sun' : 'moon'" />
+            </button>
+            <button @click="toggleLargeFont()" title="Aumentar/achicar el tamaño del texto">
+              <icon :name="largeFont ? 'zoom-out' : 'zoom-in'" />
+            </button>
+          </aside>
+        </ClientOnly>
+        <slot/>
       </div>
     </transition>
   </div>
@@ -24,24 +30,23 @@
 
 <script>
 import config from '~/.temp/config.js';
+import Icon from "vue-icon/lib/vue-feather.esm";
 
-const readDarkMode = () => {
-  if (process.isClient) {
-    return Boolean(Number(window.sessionStorage.getItem("darkMode")));
-  }
-
-  return false;
+const read = (flag) => {
+  return Boolean(Number(window.sessionStorage.getItem(flag)));
 }
 
-const writeDarkMode = (value) => {
-  if (process.isClient) {
-    window.sessionStorage.setItem("darkMode", Number(value));
-  }
+const write = (flag, value) => {
+  window.sessionStorage.setItem(flag, Number(value));
 }
 
 export default {
+  components: {
+    Icon
+  },
   data: () => ({
-    darkMode: readDarkMode()
+    darkMode: read("darkMode"),
+    largeFont: read("largeFont")
   }),
   computed: {
     config () {
@@ -51,7 +56,11 @@ export default {
   methods: {
     toggleDarkMode() {
       this.darkMode = !this.darkMode;
-      writeDarkMode(this.darkMode);
+      write("darkMode", this.darkMode);
+    },
+    toggleLargeFont() {
+      this.largeFont = !this.largeFont;
+      write("largeFont", this.largeFont);
     }
   }
 }
@@ -59,10 +68,32 @@ export default {
 
 <style src="~/assets/css/main.css"></style>
 <style scoped>
-  button {
+  .button-group {
     position: fixed;
     top: 1rem;
     right: 1rem;
-    z-index: 1;
+    z-index: 20;
+  }
+
+  button {
+    padding: 1rem;
+  }
+
+  .icon {
+    width: 24px;
+    stroke: #000;
+    filter: drop-shadow(0px 0px 2px #fff) drop-shadow(0px 0px 2px #fff);
+  }
+
+  .mode-dark .icon {
+    stroke: #fff;
+    filter: drop-shadow(0px 0px 2px #000) drop-shadow(0px 0px 2px #000);
+  }
+
+  @media screen and (max-width: 640px) {
+    .button-group {
+      display: flex;
+      flex-direction: column;
+    }
   }
 </style>

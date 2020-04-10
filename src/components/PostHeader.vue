@@ -9,7 +9,7 @@
         class="max-w-xl md:max-w-3xl xl:max-w-4xl text-center px-6 absolute z-10"
         :class="[post.fullscreen ? 'flex flex-col items-center m-auto inset-0': 'mx-auto bottom-0 inset-x-0 pb-16']"
       >
-        <div class="m-auto" :class="[post.fullscreen ? 'bg-gray-900-semitransparent p-10' : '']">
+        <div class="md:m-auto md:block" :class="[post.fullscreen ? 'bg-gray-900-semitransparent p-10 hidden' : '']">
           <p class="text-white text-xs mb-2 uppercase">{{ post.timeToRead }} min. de lectura</p>
           <h1
             class="text-3xl sm:text-6xl font-caption font-bold leading-tight mb-2 text-white"
@@ -28,6 +28,21 @@
       <ClientOnly>
           <img :src="post.cover" :alt="post.title" />
       </ClientOnly>
+      <div class="md:m-auto md:hidden p-10 text-center">
+        <p class="text-white text-xs mb-2 uppercase">{{ post.timeToRead }} min. de lectura</p>
+        <h1
+          class="text-3xl sm:text-6xl font-caption font-bold leading-tight mb-2 text-white"
+        >{{ post.title }}</h1>
+        <p class="text-white">
+          <span v-if="post.author.title">
+            <g-link
+              :to="`${post.author.path}/`"
+              class="text-white capitalize border-b border-transparent hover:border-white dark-hover:border-teal-400 transition-colors duration-300"
+            >{{ titleCase(post.author.title) }}</g-link>&nbsp;&bull;
+          </span>
+          <time :datetime="post.datetime">{{ formattedPublishDate }}</time>
+        </p>
+      </div>
     </div>
     <div v-else class="pt-24">
       <div class="max-w-xl md:max-w-3xl xl:max-w-4xl mx-auto text-center px-6">

@@ -7,9 +7,10 @@ tags:
   - diseño gráfico
   - color
   - experimentos
-description: Hello
+description: Existen diversos criterios a la hora de seleccionar los tonos y niveles de luz que conformarán una paleta de colores, pero ¿cómo podemos probar rápidamente cómo se comportarán estos colores al interactuar los unos con los otros?
 cover: /images/posts/composicion-paletas-color-contraste-proporcion/cover.jpg
 fullscreen: true
 ---
 
-Hola
+Existen diversos criterios a la hora de seleccionar los tonos y niveles de luz que conformarán una paleta de colores, pero ¿cómo podemos probar rápidamente cómo se comportarán estos colores al interactuar los unos con los otros?
+
