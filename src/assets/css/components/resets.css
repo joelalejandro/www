@@ -1,0 +1,11 @@
+::selection {
+  @apply text-white bg-black;
+}
+
+.mode-dark ::selection {
+  @apply text-black bg-white;
+}
+
+a {
+  text-decoration-color: inherit;
+}

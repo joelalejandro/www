@@ -1,0 +1,28 @@
+/*! purgecss start ignore */
+@import 'tailwindcss/base';
+/*! purgecss end ignore */
+
+@import 'components/resets';
+
+@import 'tailwindcss/components';
+
+@import 'components/markdown';
+
+@import 'tailwindcss/utilities';
+
+.font-caption {
+  font-family: "chaparral-pro-caption";
+}
+
+.filter-invert {
+  transition: filter linear 700ms;
+  filter: invert(0);
+}
+
+#app > div {
+  transition: all ease-out 500ms;
+}
+
+.mode-dark .filter-invert {
+  filter: invert(1);
+}
