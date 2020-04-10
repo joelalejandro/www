@@ -18,6 +18,8 @@
           v-html="$page.post.content"
         />
 
+        <comments />
+
         <footer v-if="$page.post.author || $page.post.tags" class="flex flex-wrap pb-10 sm:pb-16">
           <div>
             <g-link
@@ -86,12 +88,14 @@ import Alert from "@/components/Alert";
 import slugify from "@sindresorhus/slugify";
 import SiteFooter from "@/components/Footer";
 import PostHeader from "~/components/PostHeader";
+import Comments from "@/components/Comments";
 
 export default {
   components: {
     Alert,
     PostHeader,
-    SiteFooter
+    SiteFooter,
+    Comments
   },
   metaInfo() {
     return {

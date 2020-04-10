@@ -18,7 +18,7 @@
             <span v-if="post.author.title">
               <g-link
                 :to="`${post.author.path}/`"
-                class="text-white capitalize border-b border-transparent hover:border-white dark-hover:border-teal-400 transition-colors duration-300"
+                class="dark:text-white capitalize border-b border-transparent hover:border-white dark-hover:border-teal-400 transition-colors duration-300"
               >{{ titleCase(post.author.title) }}</g-link>&nbsp;&bull;
             </span>
             <time :datetime="post.datetime">{{ formattedPublishDate }}</time>
@@ -41,8 +41,8 @@
           <span v-if="post.author">
             <g-link
               :to="`${post.author.path}/`"
-              class="text-gray-700 capitalize border-b border-transparent hover:border-gray-400 dark-hover:border-teal-400 transition-colors duration-300"
-            >{{ titleCase(post.author.title) }}</g-link>&bull;
+                class="text-white capitalize border-b border-transparent hover:border-white dark-hover:border-teal-400 transition-colors duration-300"
+            >{{ titleCase(post.author.title) }}</g-link>&nbsp;&bull;
           </span>
           <time :datetime="post.datetime">{{ formattedPublishDate }}</time>
         </p>
