@@ -13,9 +13,23 @@
 <script>
 import config from '~/.temp/config.js';
 
+const readDarkMode = () => {
+  if (process.isClient) {
+    return Boolean(Number(window.sessionStorage.getItem("darkMode")));
+  }
+
+  return false;
+}
+
+const writeDarkMode = (value) => {
+  if (process.isClient) {
+    window.sessionStorage.setItem("darkMode", Number(value));
+  }
+}
+
 export default {
   data: () => ({
-    darkMode: Boolean(Number(window.sessionStorage.getItem("darkMode")))
+    darkMode: readDarkMode()
   }),
   computed: {
     config () {
@@ -25,7 +39,7 @@ export default {
   methods: {
     toggleDarkMode() {
       this.darkMode = !this.darkMode;
-      window.sessionStorage.setItem("darkMode", Number(this.darkMode));
+      writeDarkMode(this.darkMode);
     }
   }
 }
