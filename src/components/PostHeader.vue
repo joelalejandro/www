@@ -9,7 +9,7 @@
         class="max-w-xl md:max-w-3xl xl:max-w-4xl text-center px-6 absolute z-10"
         :class="[post.fullscreen ? 'flex flex-col items-center m-auto inset-0': 'mx-auto bottom-0 inset-x-0 pb-16']"
       >
-        <div class="m-auto">
+        <div class="m-auto" :class="[post.fullscreen ? 'bg-gray-900-semitransparent p-10' : '']">
           <p class="text-white text-xs mb-2 uppercase">{{ post.timeToRead }} min. de lectura</p>
           <h1
             class="text-3xl sm:text-6xl font-caption font-bold leading-tight mb-2 text-white"
@@ -26,22 +26,20 @@
         </div>
       </div>
       <ClientOnly>
-        <parallax :speed-factor="speedFactor" :sectionHeight="80">
           <img :src="post.cover" :alt="post.title" />
-        </parallax>
       </ClientOnly>
     </div>
     <div v-else class="pt-24">
       <div class="max-w-xl md:max-w-3xl xl:max-w-4xl mx-auto text-center px-6">
-        <p class="text-gray-700 text-xs mb-2 uppercase">{{ post.timeToRead }} min. de lectura</p>
+        <p class="text-gray-700 dark:text-gray-500 text-xs mb-2 uppercase">{{ post.timeToRead }} min. de lectura</p>
         <h1
-          class="text-3xl sm:text-5xl leading-tight font-caption font-bold mb-2 text-black"
+          class="text-3xl sm:text-5xl leading-tight font-caption font-bold mb-2 text-black dark:text-teal-300"
         >{{ post.title }}</h1>
-        <p class="text-gray-700">
+        <p class="text-gray-700 dark:text-gray-400">
           <span v-if="post.author">
             <g-link
               :to="`${post.author.path}/`"
-                class="text-white capitalize border-b border-transparent hover:border-white dark-hover:border-teal-400 transition-colors duration-300"
+                class="dark:text-white capitalize border-b border-transparent hover:border-white dark-hover:border-teal-400 transition-colors duration-300"
             >{{ titleCase(post.author.title) }}</g-link>&nbsp;&bull;
           </span>
           <time :datetime="post.datetime">{{ formattedPublishDate }}</time>
@@ -51,7 +49,7 @@
     <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
       <g-link
         to="/"
-        :class="[post.cover ? 'text-white border-white' : 'text-gray-900 border-gray-400']"
+        :class="[post.cover ? 'text-white border-white' : 'text-gray-900 border-gray-400 dark:text-gray-400']"
         class="text-sm border opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity duration-300"
       >&larr; Volver a la portada</g-link>
     </nav>

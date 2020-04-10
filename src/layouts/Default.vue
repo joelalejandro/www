@@ -1,14 +1,26 @@
 <template>
   <div v-bind:class="{ 'mode-dark': darkMode }">
-    <div class="bg-white dark:bg-black">
-      <button @click="toggleDarkMode()" title="Modo oscuro/claro">
-        <span v-if="!darkMode">🌙</span>
-        <span v-if="darkMode">🌞</span>
-      </button>
-      <slot/>
-    </div>
+    <transition name="fade" appear>
+      <div class="bg-white dark:bg-black">
+        <button @click="toggleDarkMode()" title="Modo oscuro/claro">
+          <span v-if="!darkMode">🌙</span>
+          <span v-if="darkMode">🌞</span>
+        </button>
+          <slot/>
+      </div>
+    </transition>
   </div>
 </template>
+
+<style>
+.fade-enter-active {
+  transition: opacity .5s;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+</style>
 
 <script>
 import config from '~/.temp/config.js';

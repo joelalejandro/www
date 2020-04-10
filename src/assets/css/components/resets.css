@@ -9,3 +9,8 @@
 a {
   text-decoration-color: inherit;
 }
+
+
+.bg-gray-900-semitransparent {
+  background-color: #1a202c80;
+}

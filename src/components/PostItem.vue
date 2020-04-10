@@ -1,13 +1,13 @@
 <template>
   <article>
     <div class="mx-auto max-w-3xl px-6">
-      <div class="py-8 sm:py-20 border-b border-gray-300 dark:border-gray-700">
+      <div class="py-8 sm:py-20 border-b border-gray-400 dark:border-gray-700">
         <header class="text-center mb-8">
           <time
             :datetime="post.datetime"
             class="text-gray-700 dark:text-gray-500 text-xs mb-2 uppercase"
           >{{ formatPublishDate(post.datetime) }}</time>
-          <h2 class="text-3xl sm:text-5xl leading-tight font-sans mb-1 sm:mb-2">
+          <h2 class="text-3xl sm:text-4xl leading-tight font-sans mb-1 sm:mb-2">
             <g-link :to="`${post.path}/`" class="text-black dark:text-white font-caption">{{ post.title }}</g-link>
           </h2>
           <p class="text-gray-700 dark:text-gray-500 leading-normal text-sm sm:text-base">
@@ -17,7 +17,7 @@
                 class="text-gray-700 dark:text-gray-400 border-b border-transparent hover:border-gray-400 transition-colors duration-300"
                 v-if="post.author.title !== 'Joey'"
               >
-                escrito por
+                Una publicación de
                 <span class="italic">{{ titleCase(post.author.title) }}</span>
               </g-link>
             </span>

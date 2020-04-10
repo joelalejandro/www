@@ -66,7 +66,7 @@
               <p class="leading-normal">
                 <g-link
                   :to="`${$page.post.author.path}/`"
-                  class="text-blue-500 dark:text-teal-300 dark-hover:text-teal-100 hover:text-blue-400 transition-colors duration-300"
+                  class="text-teal-500 dark:text-teal-300 dark-hover:text-teal-100 hover:text-teal-400 transition-colors duration-300"
                 >Ver más publicaciones &rarr;</g-link>
               </p>
             </div>
@@ -185,7 +185,7 @@ export default {
     },
     ogImageUrl() {
       return (
-        this.$page.post.cover || `${this.config.siteUrl}/images/bleda-card.png`
+        this.$page.post.cover || `${this.config.siteUrl}/images/authors/Joel%20A.%20Villarreal%20Bertoldi.png`
       );
     }
   }
