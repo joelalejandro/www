@@ -35,25 +35,25 @@ export default {
   },
   metaInfo () {
     return {
-      title: `Posts tagged "${this.titleCase(this.$page.tag.title)}"`,
+      title: `Publicaciones sobre "${this.titleCase(this.$page.tag.title)}"`,
       meta: [
         {
           key: 'description',
           name: 'description',
-          content: `Browse posts tagged "${this.titleCase(this.$page.tag.title)}"`
+          content: `Te invito a leer contenido relacionado a "${this.titleCase(this.$page.tag.title)}"`
         },
 
         { property: "og:type", content: 'website' },
-        { property: "og:title", content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"` },
-        { property: "og:description", content: `Browse posts tagged "${this.titleCase(this.$page.tag.title)}"` },
+        { property: "og:title", content: `Publicaciones sobre "${this.titleCase(this.$page.tag.title)}"` },
+        { property: "og:description", content: `Te invito a leer contenido relacionado a "${this.titleCase(this.$page.tag.title)}"` },
         { property: "og:url", content: `${this.config.siteUrl}${this.$page.tag.path}` },
         { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: `Posts tagged "${this.titleCase(this.$page.tag.title)}"` },
-        { name: "twitter:description", content: `Browse posts tagged "${this.titleCase(this.$page.tag.title)}"` },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
+        { name: "twitter:title", content: `Publicaciones sobre "${this.titleCase(this.$page.tag.title)}"` },
+        { name: "twitter:description", content: `Te invito a leer contenido relacionado a "${this.titleCase(this.$page.tag.title)}"` },
+        { name: "twitter:site", content: "@joelalejandro" },
+        { name: "twitter:creator", content: "@joelalejandro" },
         { name: "twitter:image", content: this.ogImageUrl },
       ],
     }

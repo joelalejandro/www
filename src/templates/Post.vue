@@ -128,8 +128,8 @@ export default {
           name: "twitter:description",
           content: this.description(this.$page.post)
         },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
+        { name: "twitter:site", content: "@joelalejandro" },
+        { name: "twitter:creator", content: "@joelalejandro" },
         { name: "twitter:image", content: this.ogImageUrl }
       ]
     };

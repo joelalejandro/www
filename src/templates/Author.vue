@@ -43,16 +43,16 @@ export default {
         },
 
         { property: "og:type", content: 'website' },
-        { property: "og:title", content: `Posts written by ${this.titleCase(this.$page.author.title)}` },
-        { property: "og:description", content: `Browse posts written by ${this.titleCase(this.$page.author.title)}` },
+        { property: "og:title", content: `Publicaciones escritas por ${this.titleCase(this.$page.author.title)}` },
+        { property: "og:description", content: `Este listado muestra todas las publicaciones de ${this.titleCase(this.$page.author.title)}` },
         { property: "og:url", content: `${this.config.siteUrl}${this.$page.author.path}` },
         { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: `Posts written by ${this.titleCase(this.$page.author.title)}` },
-        { name: "twitter:description", content: `Browse posts written by ${this.titleCase(this.$page.author.title)}` },
-        { name: "twitter:site", content: "@cossssmin" },
-        { name: "twitter:creator", content: "@cossssmin" },
+        { name: "twitter:title", content: `Publicaciones escritas por ${this.titleCase(this.$page.author.title)}` },
+        { name: "twitter:description", content: `Este listado muestra todas las publicaciones de ${this.titleCase(this.$page.author.title)}` },
+        { name: "twitter:site", content: "@joelalejandro" },
+        { name: "twitter:creator", content: "@joelalejandro" },
         { name: "twitter:image", content: this.ogImageUrl },
       ],
     }
