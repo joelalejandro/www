@@ -2,8 +2,10 @@
   <footer
     class="text-gray-700 dark:text-gray-600 text-sm leading-normal flex flex-wrap justify-between mx-auto max-w-3xl px-6 sm:px-12"
   >
-    <div class="w-full flex justify-center mb-12">
-
+    <div class="w-full flex justify-around mb-12">
+      <a title="Seguime en Twitter" href="https://twitter.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="twitter" /></a>
+      <a title="Seguime en Instagram" href="https://instagram.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="instagram" /></a>
+      <a title="Seguime en GitHub" href="https://github.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="github" /></a>
     </div>
     <div class="w-full sm:w-1/2 mb-4 sm:mb-0">
       <p>
@@ -62,8 +64,31 @@
   </footer>
 </template>
 
+<style scoped>
+  .icon {
+    width: 24px;
+    height: 24px;
+    transition: stroke 100ms linear;
+  }
+
+  .icon:hover {
+    stroke: teal;
+  }
+
+  .mode-dark {
+    .icon:hover {
+      stroke: #fff;
+    }
+  }
+</style>
+
 <script>
+import Icon from "vue-icon/lib/vue-feather.esm";
+
 export default {
-  name: "Footer"
+  name: "Footer",
+  components: {
+    Icon
+  }
 };
 </script>
