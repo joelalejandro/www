@@ -33,10 +33,14 @@ import config from '~/.temp/config.js';
 import Icon from "vue-icon/lib/vue-feather.esm";
 
 const read = (flag) => {
+  if (!process.isClient) return false;
+
   return Boolean(Number(window.sessionStorage.getItem(flag)));
 }
 
 const write = (flag, value) => {
+  if (!process.isClient) return;
+
   window.sessionStorage.setItem(flag, Number(value));
 }
 

@@ -2,7 +2,7 @@
   <header>
     <div
       v-if="post.cover"
-      class="post-cover overflow-hidden relative"
+      class="md:post-cover overflow-hidden relative"
       :class="[post.fullscreen ? 'fullscreen' : 'max-h-cover']"
     >
       <div
@@ -29,15 +29,15 @@
           <img :src="post.cover" :alt="post.title" />
       </ClientOnly>
       <div class="md:m-auto md:hidden p-10 text-center">
-        <p class="text-white text-xs mb-2 uppercase">{{ post.timeToRead }} min. de lectura</p>
+        <p class="dark:text-white text-xs mb-2 uppercase">{{ post.timeToRead }} min. de lectura</p>
         <h1
-          class="text-3xl sm:text-6xl font-caption font-bold leading-tight mb-2 text-white"
+          class="text-3xl sm:text-6xl font-caption font-bold leading-tight mb-2 dark:text-white"
         >{{ post.title }}</h1>
-        <p class="text-white">
+        <p class="dark:text-white">
           <span v-if="post.author.title">
             <g-link
               :to="`${post.author.path}/`"
-              class="text-white capitalize border-b border-transparent hover:border-white dark-hover:border-teal-400 transition-colors duration-300"
+              class="dark:text-white capitalize border-b border-transparent hover:border-white dark-hover:border-teal-400 transition-colors duration-300"
             >{{ titleCase(post.author.title) }}</g-link>&nbsp;&bull;
           </span>
           <time :datetime="post.datetime">{{ formattedPublishDate }}</time>
