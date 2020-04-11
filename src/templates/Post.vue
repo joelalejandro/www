@@ -90,6 +90,18 @@ import SiteFooter from "@/components/Footer";
 import PostHeader from "~/components/PostHeader";
 import Comments from "@/components/Comments";
 
+const injectCommento = () => {
+  if (!process.isClient) {
+    return {};
+  }
+
+  if (!window.location.href.includes("joey.works")) {
+    return {};
+  }
+
+  return { src: 'https://cdn.commento.io/js/commento.js', defer: true };
+};
+
 export default {
   components: {
     Alert,
@@ -102,6 +114,9 @@ export default {
       title: `${this.$page.post.title} ${
         this.$page.post.tag ? "- " + this.$page.post.tag.name : ""
       }`,
+      script: [
+        injectCommento()
+      ],
       meta: [
         {
           key: "description",
