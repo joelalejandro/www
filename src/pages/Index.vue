@@ -66,7 +66,7 @@ export default {
       return config;
     },
     ogImageUrl() {
-      return `${this.config.siteUrl}/images/logo.svg`;
+      return `${this.config.siteUrl}/android-chrome-512x512.png`;
     }
   }
 };
