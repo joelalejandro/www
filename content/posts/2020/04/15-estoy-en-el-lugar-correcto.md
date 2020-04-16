@@ -16,7 +16,7 @@ Hace poco más de 20 años que trabajo en el rubro de tecnología, pasando por d
 roles y experiencias, tanto en el ámbito público como el ámbito privado, tanto en relación
 de dependencia como en mis propios emprendimientos, tanto solo como en equipo.
 
-Bajo ciertos estándares y expectaivas, puedo considerarme una persona exitosa. Tengo un
+Bajo ciertos estándares y expectativas, puedo considerarme una persona exitosa. Tengo un
 trabajo que amo, contribuyo a la sociedad, tengo un buen pasar económico y me encuentro
 en una relación saludable y feliz con mi familia.
 
@@ -87,7 +87,7 @@ La sociedad ya tiene suficientes tabúes como para que estemos sumando uno más 
 Para esto, tenemos que saber a quién acudir y ser inteligentes en nuestras decisiones. Si estamos
 en un entorno laboral que no contiene, que no empatiza y que hace prevalecer la competencia
 de los egos antes que la colaboración y la cooperación, tratemos de apoyarnos en personas que se
-mantengan al margen de este juego perverso. El síndrome del imposter impacta de lleno en nuestra
+mantengan al margen de este juego perverso. El síndrome del impostor impacta de lleno en nuestra
 autoestima y nuestra capacidad de confiar en los demás.
 
 Otro acto indispensable es el de no torturarnos y autosometernos cuando nos sentimos fuera de lugar
