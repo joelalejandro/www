@@ -99,7 +99,7 @@ const injectCommento = () => {
     return {};
   }
 
-  return { src: 'https://cdn.commento.io/js/commento.js', defer: true };
+  return { src: "https://cdn.commento.io/js/commento.js", defer: true };
 };
 
 export default {
@@ -114,9 +114,7 @@ export default {
       title: `${this.$page.post.title} ${
         this.$page.post.tag ? "- " + this.$page.post.tag.name : ""
       }`,
-      script: [
-        injectCommento()
-      ],
+      script: [injectCommento()],
       meta: [
         {
           key: "description",
@@ -199,9 +197,7 @@ export default {
         : `${siteUrl}/${slugify(this.$page.post.title)}/`;
     },
     ogImageUrl() {
-      return (
-        this.$page.post.cover || `${this.config.siteUrl}/images/authors/Joel%20A.%20Villarreal%20Bertoldi.png`
-      );
+      return `${this.config.siteUrl}${this.$page.post.cover}`;
     }
   }
 };
