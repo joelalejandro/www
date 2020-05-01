@@ -23,10 +23,18 @@
   transition: all ease-out 500ms;
 }
 
-.mode-dark .filter-invert {
-  filter: invert(1);
-}
-
 .mode-large-font {
   zoom: 1.5;
+}
+
+.mode-dark {
+  .filter-invert {
+    filter: invert(1);
+  }
+
+  .commento-name,
+  [for="commento-anonymous-checkbox-root"],
+  .commento-body {
+    @apply text-gray-300 !important;
+  }
 }
