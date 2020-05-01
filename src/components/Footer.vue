@@ -50,13 +50,13 @@
           </li>
           <li class="px-2">
             <a
-              href="/feed.xml"
+              href="/feed.xml?v=1"
               class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
             >RSS breve</a>
           </li>
           <li class="px-2">
             <a
-              href="/feed.xml"
+              href="/feed-full.xml?v=1"
               class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
             >RSS completo</a>
           </li>
