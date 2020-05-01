@@ -1,6 +1,43 @@
 const showdown = require("showdown");
 const converter = new showdown.Converter();
 
+const rssOptions = {
+  contentTypeName: 'Post',
+  feedOptions: {
+    title: 'joey.works | Trabajos e ideas de Joel A. Villarreal Bertoldi',
+    description: '¡Hola! Soy Joey, un emprendedor de Córdoba, Argentina. Me dedico al diseño gráfico y al desarrollo de software. En este espacio comparto algunas ideas y trabajos que voy haciendo.',
+    feed_url: 'https://joey.works/feed.xml',
+    site_url: 'https://joey.works',
+    image_url: 'https://joey.works/android-chrome-512x512.png',
+    language: 'es',
+    custom_namespaces: {
+      'webfeeds': 'http://webfeeds.org/rss/1.0'
+    },
+    managingEditor: 'Joel A. Villarreal Bertoldi',
+    webMaster: 'Joel A. Villarreal Bertoldi',
+    copyright: '2020-hoy, Joel A. Villarreal Bertoldi',
+    ttl: 60,
+    custom_elements: [
+      { 'webfeeds:logo': 'https://joey.works/favicon-32x32.png' },
+      { 'webfeeds:icon': 'https://joey.works/android-chrome-512x512.png' },
+      { 'webfeeds:related': { _attr: { layout: 'card', target: 'browser' } } },
+      { 'webfeeds:analytics': { _attr: { id: 'UA-163336812-1', engine: 'GoogleAnalytics' } } },
+    ],
+  },
+  feedItemOptions: node => ({
+    title: node.title,
+    description: node.description,
+    url: 'https:/joey.works' + node.path,
+    author: node.author,
+    date: node.date,
+    categories: node.tags,
+  }),
+  output: {
+    dir: './static',
+    name: 'feed.xml',
+  },
+}
+
 module.exports = {
   siteName: 'joey.works | Trabajos e ideas de Joel A. Villarreal Bertoldi',
   siteDescription: "¡Hola! Soy Joey, un emprendedor de Córdoba, Argentina. Me dedico al diseño gráfico y al desarrollo de software. En este espacio comparto algunas ideas y trabajos que voy haciendo.",
@@ -53,45 +90,21 @@ module.exports = {
     },
     {
       use: 'gridsome-plugin-rss',
-      options: {
-        contentTypeName: 'Post',
-        feedOptions: {
-          title: 'joey.works',
-          feed_url: 'https://joey.works/feed.xml',
-          site_url: 'https://joey.works',
-          image_url: 'https://joey.works/android-chrome-512x512.png',
-          language: 'es'
-        },
-        feedItemOptions: node => ({
-          title: node.title,
-          description: node.description,
-          url: 'https:/joey.works' + node.path,
-          author: node.author,
-          date: node.date,
-        }),
-        output: {
-          dir: './static',
-          name: 'feed.xml',
-        },
-      },
+      options: rssOptions
     },
     {
       use: 'gridsome-plugin-rss',
       options: {
+        ...rssOptions,
         contentTypeName: 'Post',
-        feedOptions: {
-          title: 'joey.works',
-          feed_url: 'https://joey.works/feed-full.xml',
-          site_url: 'https://joey.works',
-          image_url: 'https://joey.works/android-chrome-512x512.png',
-          language: 'es'
-        },
         feedItemOptions: node => ({
           title: node.title,
           description: converter.makeHtml(node.content.replace(/\/images/g, "https://joey.works/images")),
           url: 'https:/joey.works' + node.path,
+          guid: 'https:/joey.works' + node.path,
           author: node.author,
           date: node.date,
+          categories: node.tags,
         }),
         output: {
           dir: './static',
