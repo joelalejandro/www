@@ -7,6 +7,7 @@
       <a title="Seguime en Twitter" href="https://twitter.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="twitter" /></a>
       <a title="Seguime en Instagram" href="https://instagram.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="instagram" /></a>
       <a title="Seguime en GitHub" href="https://github.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="github" /></a>
+      <a title="Seguime en LinkedIn" href="https://linkedin.com/in/joelvillarrealbertoldi" target="_blank" rel="noopener noreferrer"><icon name="linkedin" /></a>
     </div>
     <div class="w-full sm:w-1/2 mb-4 sm:mb-0">
       <p>

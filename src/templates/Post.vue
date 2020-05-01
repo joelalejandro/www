@@ -18,7 +18,7 @@
           v-html="$page.post.content"
         />
 
-        <comments />
+        <share :postUrl="this.postUrl" />
 
         <footer v-if="$page.post.author || $page.post.tags" class="flex flex-wrap pb-10 sm:pb-16">
           <div>
@@ -72,6 +72,9 @@
             </div>
           </div>
         </footer>
+
+        <comments />
+
       </article>
 
       <site-footer class="pb-8 sm:pb-10" />
@@ -89,6 +92,7 @@ import slugify from "@sindresorhus/slugify";
 import SiteFooter from "@/components/Footer";
 import PostHeader from "~/components/PostHeader";
 import Comments from "@/components/Comments";
+import Share from "@/components/Share";
 
 const injectCommento = () => {
   return { src: "https://cdn.commento.io/js/commento.js", defer: true };
@@ -99,7 +103,8 @@ export default {
     Alert,
     PostHeader,
     SiteFooter,
-    Comments
+    Comments,
+    Share
   },
   metaInfo() {
     return {

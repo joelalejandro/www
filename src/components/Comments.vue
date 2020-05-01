@@ -1,3 +1,3 @@
 <template>
-  <div id="commento"></div>
+  <div id="commento" class="mb-24"></div>
 </template>
