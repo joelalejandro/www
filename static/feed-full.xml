@@ -1,249 +1,177 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[joey.works]]></title><description><![CDATA[joey.works]]></description><link>https://joey.works</link><generator>RSS for Node</generator><lastBuildDate>Thu, 16 Apr 2020 03:28:51 GMT</lastBuildDate><atom:link href="https://joey.works/feed-full.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Composición de paletas de color a través de pruebas de contraste y proporción]]></title><description><![CDATA[
-Existen diversos criterios a la hora de seleccionar los tonos y niveles de luz que conformarán una paleta de colores, pero ¿cómo podemos probar rápidamente cómo se comportarán estos colores al interactuar los unos con los otros?
-
-La exploración del color puede llevarse adelante a través de composiciones libres para crear diseños o combinaciones cromáticas nuevas y originales. La atención exclusiva a las relaciones cromáticas supone un punto de vista creativo que da a conocer a la persona un rico legado de conocimientos y experiencias. La perspectiva cromática propuesta es fundamentalmente un _punto de vista visual_<sup>1</sup>.
-
-Inspirado en las composiciones de Garth Lewis, diseñé una figura prototipo que se podía utilizar para evaluar relaciones de color en cuanto a proporción:
-
-![Yuxtaposición de figuras geométricas, cada una con su color](/images/posts/composicion-paletas-color-contraste-proporcion/figure-1.svg)
-
-Esta estructura yuxtapuesta contiene cuatro figuras geométricas de distinto tamaño, en orden decreciente, desde la más externa a la más interna. En la figura de ejemplo, el orden de espacio ocupado por colores es: rojo, azul, beige y marrón.
-
-¿Qué sucede cuando rotamos la ubicación de los colores? _Utilizá la función de Modo Nocturno de la página y vas a notar más cosas sucediendo._
-
-![Yuxtaposición de figuras geométricas, rotando por cada color](/images/posts/composicion-paletas-color-contraste-proporcion/figure-2.svg)
-
-Pareciera que cuando el azul está sobre un fondo oscuro, se percibe como más claro que cuando está sobre un fondo blanco. El brillo del color rojo podría percibirse como más intenso según si está rodeado de beige o de azul. Empezamos a observar cómo el peso visual en tanto contraste de luz empieza a generar distintos caminos en el recorrido del ojo.
-
-Cuando un color con alta saturación (es decir, en su máximo estado de pureza, lejos del gris) se encuentra rodeado por colores menos saturados o más luminosos (por ejemplo, un punto rojo en un fondo luminoso), el ojo se ve atraído hacía ese punto.
-
-También podríamos pensar que se modifica la jerarquía de profundidad en estas figuras: en algún diseño quizá da la sensación que la segunda figura más grande de la composición está al frente, mientras que en otras, está más atrás.
-
-> Probar los colores con este tipo de composiciones permite descubrir relaciones nuevas en cuanto al orden y la proporción de espacio ocupado en el plano.
-
-Este experimento puede extenderse para evaluar no sólo variables tonales, si no también de luminosidad:
-
-![Tablero completo de pruebas, con tonos y luminosidades](/images/posts/composicion-paletas-color-contraste-proporcion/figure-3.svg)
-
-_Dato curioso: ¿notaste que en un fondo oscuro, las barras de color de este tablero parecen ir aumentando en tamaño, pero que en un fondo claro tienen la misma altura?_
-
-## ¿Es la única composición válida?
-
-Se puede utilizar cualquier figura arbitraria, rellena con distintas figuras por dentro, generando espacios para probar la paleta. Esto permite en un vistazo ver las relaciones que se producen al superponer o acercar ciertos colores.
-
-## ¿Para qué puede servir esto?
-
-Es muy útil para detectar qué combinaciones de colores tienen mayor o menor contraste en una misma gama tonal. En el caso de distintas tonalidades, permite determinar la proporción de color ideal para lograr ciertos destaques (ejemplo: cuánto rojo conviene usar sobre amarillo).
-
-## ¡Hay una versión on-line!
-
-Empecé a trabajar en un prototipo de aplicación web que permite simular estos tableros de evalución de color, llamado [cromimap](https://cromimap.now.sh) (_cromi_ = color, _map_ = mapa). Por ahora sólo funciona en dispositivos desktop y no tiene mucha funcionalidad, pero permite especificar hasta cuatro colores y generar la rotación correspondiente. También incluye un comando para elegir colores al azar. ¡Ideal para buscar ideas!
-
-## Bibliografía
-<sup>1</sup> Lewis, G.: 2000 combinaciones de color para diseñadores gráficos, textiles y artesanales. Editorial Blume. Barcelona, 2009.
-]]></description><link>https:/joey.works/composicion-de-paletas-de-color-a-traves-de-pruebas-de-contraste-y-proporcion/</link><guid isPermaLink="true">https:/joey.works/composicion-de-paletas-de-color-a-traves-de-pruebas-de-contraste-y-proporcion/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Fri, 10 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Todo empezó con una condesa: una historia de la programación]]></title><description><![CDATA[
-_Este artículo sirvió como las bases de una charla que dí sobre introducción a la programación en el primer Bootcamp Web de [Mujeres en Tecnología Córdoba](https://metcba.org), desarrollado en 2019._
-
-Hace poco más de 175 años, poco menos de dos siglos, en la Londres de la era Victoriana, Augusta Ada King, más conocida como [Ada Lovelace](https://es.wikipedia.org/wiki/Ada_Lovelace), intercambiaba correspondencias con [Charles Babbage](https://es.wikipedia.org/wiki/Charles_Babbage) durante el desarrollo de un sistema de máquinas llamado **Analytical Engine** (que en español, sería algo asi como la "[Máquina analítica](https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica)").
-
-Este sistema de máquinas era el sucesor de un primer modelo llamado **Difference Engine** ("la [Máquina diferencial](https://es.wikipedia.org/wiki/M%C3%A1quina_diferencial)"), que serviría para resolver funciones polinómicas.
-
-Ninguna de estas máquinas llego a construirse hasta casi un siglo después, porque la corona británica retiró su apoyo al proyecto.
-
-Sin embargo, Ada escribió paginas y páginas en una publicación inocentemente llamada **Notes** ("Notas"), explicando su interpretación del funcionamiento de esta maquinaria. Y en estas notas, fue la primera en teorizar que se podían computar no sólo cálculos, sino algoritmos de cualquier tipo. Fue ella, justamente, la primera en escribir estos programas, en una época donde las tarjetas perforadas eran el avance científico-computacional del momento (alrededor de 1832).
-
-Las cartas muestran discusiones al desnudo entre Ada y Charles, generalmente en el tono de "ella explicándole a Charles y exigiéndole la misma atención al detalle que ella poseía".
-
-Casi dos siglos han pasado, y la _Encantadora de los Números_ (un apodo que Babbage acuñó para Lovelace) tuvo razón en muchas de sus predicciones.
-
-En una de sus notas, escribe:
-
-> "Esta maquinaria podría actuar sobre otras cosas además de números, si hubiese objetos cuyas relaciones fundamentales pudieran ser expresadas por la ciencia abstracta de las operaciones"
-
-Pensemos en esto por un momento. ¿Qué cosas podemos hacer con un libro? Abrirlo. Cerrarlo. Guardarlo en un estante. Buscar una pagína en particular. Leerlo. Todas estas acciones son semejantes a las cosas que podemos hacer con un número: sumarlo, restarlo, multiplicarlo.
-
-Esto nos permite establecer el siguiente enunciado:
-
-> "Toda realidad es representable"
-
-Esta oración representa uno de los principios de la programación, area en la que Ada Lovelace es considerada por muchos una pionera.
-
-Tenemos ya entonces, varias preguntas, pero la más grande y urgente sería: **¿qué es la programación?**
-
-## ¿Qué es la programación?
-
-Hay múltiples maneras de abordar una definición sobre qué es la programación.
-
-- Desde la **música**, podemos entender la programación como la orquestación de diversos instrumentos en una serie de patrones que cumplen una función específica en la armonía musical.
-- Desde el **cine** o el **teatro**, la dirección e interpretación de un guión, llevada adelante con un grupo de actores relacionados, cada uno con su propósito.
-- Desde la **gastronomía**, como la preparación par ala receta de una comida, un cóctel o un café.
-
-¿Qué tienen en común todas estas actividades? **Todas involucran una serie de pasos a ejecutar, con un propósito determinado en un contexto particular.**
-
-Esta serie de pasos a ejecutar es comúnmente conocido con el nombre de **programa**. También se lo conoce como rutina, script, secuencia de comandos. A su vez, cada uno de estos pasos puede llamarse, entre otras formas, **instrucción**.
-
-## ¿Para qué sirve programar?
-
-Dado que todo programa está diseñado para satisfacer una necesidad en particular o realizar una tarea específica, podemos asumir que programar es una forma de **automatizar** ciertas acciones que se vuelven rutinarias; es una manera de resolver problemas. Veamos algunos ejemplos de actualidad:
-
-- **Necesitamos formas de comunicarnos en tiempo real.** WhatsApp, Messenger, Telegram y cuanta red social o aplicación de mensajería exista son ejemplos de programas.
-- **Necesitamos recordar números de teléfono.** Prácticamente no existe teléfono que no incluya un programa (o aplicación) de "Agenda" o "Contactos".
-
-Existen programas de variados tamaños o complejidades, desde una calculadora hasta la navegación de un transbordador especial, pasando por Candy Crush.
-
-Aprender sobre esta actividad nos empodera a transformar la realidad desde un ejercicio mental que combina lo creativo con lo lógico. Es como armar rompecabezas, donde las piezas que tratamos de encajar son bloqueos de código que, integrados, conforman un programa.
-
-## ¿Todo es un programa?
-
-En un sentido, sí. Y las páginas web, por ejemplo, no son la excepción. Hoy por hoy, en la era de la hipercomunicación, Argentina lidera en el continente en materia de penetración de Internet, donde 9 de cada 10 personas está conectada a la red de redes. Es común hablar de búsquedas en Google, subir fotos a Instagram, participar en acaloradas discusiones en Twitter, por mencionar algunos ejemplos.
-
-Todas estas actividades son llevadas a cabo a través de programas que interactúan con otros programas. El navegador es un programa; los resultados de una bíusqueda son la respuesta de otro programa. **Un sitio web, entonces, es un programa o conjunto de programas.**
-
-## ¿Cualquiera puede programar?
-
-Esta es una pregunta que se ha respondido muchísimas veces en la historia de la computación.
-
-Podría enumerar cada uno de los casos, pero es mejor ir a la respuesta: **¡sí!** Cualquiera puede programar, con el debido entrenamiento y práctica.
-
-Como con cualquier otra habilidad, hay personas a las que puede resultarle más fácil o más difícil. Es importante remarcar algo en este punto: **todas las personas aprendemos de distintas maneras**. 
-
-Si te considerás una persona analítica, probablemente te guste resolver problemas siguiendo un método ordenado y lógico, descomponiéndolo en partes más pequeñas y simples. Por otra parte, si sos una persona intuitiva, vas a intentar encontrar respuestas a través de procesos más exploratorios, probando por ensayo y error, buscando soluciones alternativas.
-
-Todo depende de los procesos cognitivos y de la manera que percibís e interactuás con el mundo. **Ninguna forma es mejor que otra.** Es más, los resultados más interesantes surgen de confiar en diversas metodologías de pensamiento.
-
-Un mito muy común es que si no sabés matemática, no podés programar. **Esto es falso.** Ciertamente puede ser una herramienta útil, pero es sólo eso: una herramienta. Ayuda porque es una forma de ejercitar el pensamiento lógico-abstracto, pero sin duda no es la única.
-
-Por esto, no te frustres si algo no sale a la primera. Aprender a programar es como aprender un idioma: ¡hay que practicar, practicar y practicar! Y, si lo hacés en buena compañía, ¡es más divertido!
-
-]]></description><link>https:/joey.works/todo-empezo-con-una-condesa-una-historia-de-la-programacion/</link><guid isPermaLink="true">https:/joey.works/todo-empezo-con-una-condesa-una-historia-de-la-programacion/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Mon, 13 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Estoy en el lugar correcto]]></title><description><![CDATA[
-Hace poco más de 20 años que trabajo en el rubro de tecnología, pasando por distintos
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[joey.works]]></title><description><![CDATA[joey.works]]></description><link>https://joey.works</link><image><url>https://joey.works/android-chrome-512x512.png</url><title>joey.works</title><link>https://joey.works</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 01 May 2020 20:31:58 GMT</lastBuildDate><atom:link href="https://joey.works/feed-full.xml" rel="self" type="application/rss+xml"/><language><![CDATA[es]]></language><item><title><![CDATA[Composición de paletas de color a través de pruebas de contraste y proporción]]></title><description><![CDATA[<p>Existen diversos criterios a la hora de seleccionar los tonos y niveles de luz que conformarán una paleta de colores, pero ¿cómo podemos probar rápidamente cómo se comportarán estos colores al interactuar los unos con los otros?</p>
+<p>La exploración del color puede llevarse adelante a través de composiciones libres para crear diseños o combinaciones cromáticas nuevas y originales. La atención exclusiva a las relaciones cromáticas supone un punto de vista creativo que da a conocer a la persona un rico legado de conocimientos y experiencias. La perspectiva cromática propuesta es fundamentalmente un <em>punto de vista visual</em><sup>1</sup>.</p>
+<p>Inspirado en las composiciones de Garth Lewis, diseñé una figura prototipo que se podía utilizar para evaluar relaciones de color en cuanto a proporción:</p>
+<p><img src="https://joey.works/images/posts/composicion-paletas-color-contraste-proporcion/figure-1.svg" alt="Yuxtaposición de figuras geométricas, cada una con su color" /></p>
+<p>Esta estructura yuxtapuesta contiene cuatro figuras geométricas de distinto tamaño, en orden decreciente, desde la más externa a la más interna. En la figura de ejemplo, el orden de espacio ocupado por colores es: rojo, azul, beige y marrón.</p>
+<p>¿Qué sucede cuando rotamos la ubicación de los colores? <em>Utilizá la función de Modo Nocturno de la página y vas a notar más cosas sucediendo.</em></p>
+<p><img src="https://joey.works/images/posts/composicion-paletas-color-contraste-proporcion/figure-2.svg" alt="Yuxtaposición de figuras geométricas, rotando por cada color" /></p>
+<p>Pareciera que cuando el azul está sobre un fondo oscuro, se percibe como más claro que cuando está sobre un fondo blanco. El brillo del color rojo podría percibirse como más intenso según si está rodeado de beige o de azul. Empezamos a observar cómo el peso visual en tanto contraste de luz empieza a generar distintos caminos en el recorrido del ojo.</p>
+<p>Cuando un color con alta saturación (es decir, en su máximo estado de pureza, lejos del gris) se encuentra rodeado por colores menos saturados o más luminosos (por ejemplo, un punto rojo en un fondo luminoso), el ojo se ve atraído hacía ese punto.</p>
+<p>También podríamos pensar que se modifica la jerarquía de profundidad en estas figuras: en algún diseño quizá da la sensación que la segunda figura más grande de la composición está al frente, mientras que en otras, está más atrás.</p>
+<blockquote>
+  <p>Probar los colores con este tipo de composiciones permite descubrir relaciones nuevas en cuanto al orden y la proporción de espacio ocupado en el plano.</p>
+</blockquote>
+<p>Este experimento puede extenderse para evaluar no sólo variables tonales, si no también de luminosidad:</p>
+<p><img src="https://joey.works/images/posts/composicion-paletas-color-contraste-proporcion/figure-3.svg" alt="Tablero completo de pruebas, con tonos y luminosidades" /></p>
+<p><em>Dato curioso: ¿notaste que en un fondo oscuro, las barras de color de este tablero parecen ir aumentando en tamaño, pero que en un fondo claro tienen la misma altura?</em></p>
+<h2 id="eslanicacomposicinvlida">¿Es la única composición válida?</h2>
+<p>Se puede utilizar cualquier figura arbitraria, rellena con distintas figuras por dentro, generando espacios para probar la paleta. Esto permite en un vistazo ver las relaciones que se producen al superponer o acercar ciertos colores.</p>
+<h2 id="paraqupuedeserviresto">¿Para qué puede servir esto?</h2>
+<p>Es muy útil para detectar qué combinaciones de colores tienen mayor o menor contraste en una misma gama tonal. En el caso de distintas tonalidades, permite determinar la proporción de color ideal para lograr ciertos destaques (ejemplo: cuánto rojo conviene usar sobre amarillo).</p>
+<h2 id="hayunaversinonline">¡Hay una versión on-line!</h2>
+<p>Empecé a trabajar en un prototipo de aplicación web que permite simular estos tableros de evalución de color, llamado <a href="https://cromimap.now.sh">cromimap</a> (<em>cromi</em> = color, <em>map</em> = mapa). Por ahora sólo funciona en dispositivos desktop y no tiene mucha funcionalidad, pero permite especificar hasta cuatro colores y generar la rotación correspondiente. También incluye un comando para elegir colores al azar. ¡Ideal para buscar ideas!</p>
+<h2 id="bibliografa">Bibliografía</h2>
+<p><sup>1</sup> Lewis, G.: 2000 combinaciones de color para diseñadores gráficos, textiles y artesanales. Editorial Blume. Barcelona, 2009.</p>]]></description><link>https:/joey.works/composicion-de-paletas-de-color-a-traves-de-pruebas-de-contraste-y-proporcion/</link><guid isPermaLink="true">https:/joey.works/composicion-de-paletas-de-color-a-traves-de-pruebas-de-contraste-y-proporcion/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Fri, 10 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Todo empezó con una condesa: una historia de la programación]]></title><description><![CDATA[<p><em>Este artículo sirvió como las bases de una charla que dí sobre introducción a la programación en el primer Bootcamp Web de <a href="https://metcba.org">Mujeres en Tecnología Córdoba</a>, desarrollado en 2019.</em></p>
+<p>Hace poco más de 175 años, poco menos de dos siglos, en la Londres de la era Victoriana, Augusta Ada King, más conocida como <a href="https://es.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a>, intercambiaba correspondencias con <a href="https://es.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a> durante el desarrollo de un sistema de máquinas llamado <strong>Analytical Engine</strong> (que en español, sería algo asi como la "<a href="https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica">Máquina analítica</a>").</p>
+<p>Este sistema de máquinas era el sucesor de un primer modelo llamado <strong>Difference Engine</strong> ("la <a href="https://es.wikipedia.org/wiki/M%C3%A1quina_diferencial">Máquina diferencial</a>"), que serviría para resolver funciones polinómicas.</p>
+<p>Ninguna de estas máquinas llego a construirse hasta casi un siglo después, porque la corona británica retiró su apoyo al proyecto.</p>
+<p>Sin embargo, Ada escribió paginas y páginas en una publicación inocentemente llamada <strong>Notes</strong> ("Notas"), explicando su interpretación del funcionamiento de esta maquinaria. Y en estas notas, fue la primera en teorizar que se podían computar no sólo cálculos, sino algoritmos de cualquier tipo. Fue ella, justamente, la primera en escribir estos programas, en una época donde las tarjetas perforadas eran el avance científico-computacional del momento (alrededor de 1832).</p>
+<p>Las cartas muestran discusiones al desnudo entre Ada y Charles, generalmente en el tono de "ella explicándole a Charles y exigiéndole la misma atención al detalle que ella poseía".</p>
+<p>Casi dos siglos han pasado, y la <em>Encantadora de los Números</em> (un apodo que Babbage acuñó para Lovelace) tuvo razón en muchas de sus predicciones.</p>
+<p>En una de sus notas, escribe:</p>
+<blockquote>
+  <p>"Esta maquinaria podría actuar sobre otras cosas además de números, si hubiese objetos cuyas relaciones fundamentales pudieran ser expresadas por la ciencia abstracta de las operaciones"</p>
+</blockquote>
+<p>Pensemos en esto por un momento. ¿Qué cosas podemos hacer con un libro? Abrirlo. Cerrarlo. Guardarlo en un estante. Buscar una pagína en particular. Leerlo. Todas estas acciones son semejantes a las cosas que podemos hacer con un número: sumarlo, restarlo, multiplicarlo.</p>
+<p>Esto nos permite establecer el siguiente enunciado:</p>
+<blockquote>
+  <p>"Toda realidad es representable"</p>
+</blockquote>
+<p>Esta oración representa uno de los principios de la programación, area en la que Ada Lovelace es considerada por muchos una pionera.</p>
+<p>Tenemos ya entonces, varias preguntas, pero la más grande y urgente sería: <strong>¿qué es la programación?</strong></p>
+<h2 id="queslaprogramacin">¿Qué es la programación?</h2>
+<p>Hay múltiples maneras de abordar una definición sobre qué es la programación.</p>
+<ul>
+<li>Desde la <strong>música</strong>, podemos entender la programación como la orquestación de diversos instrumentos en una serie de patrones que cumplen una función específica en la armonía musical.</li>
+<li>Desde el <strong>cine</strong> o el <strong>teatro</strong>, la dirección e interpretación de un guión, llevada adelante con un grupo de actores relacionados, cada uno con su propósito.</li>
+<li>Desde la <strong>gastronomía</strong>, como la preparación par ala receta de una comida, un cóctel o un café.</li>
+</ul>
+<p>¿Qué tienen en común todas estas actividades? <strong>Todas involucran una serie de pasos a ejecutar, con un propósito determinado en un contexto particular.</strong></p>
+<p>Esta serie de pasos a ejecutar es comúnmente conocido con el nombre de <strong>programa</strong>. También se lo conoce como rutina, script, secuencia de comandos. A su vez, cada uno de estos pasos puede llamarse, entre otras formas, <strong>instrucción</strong>.</p>
+<h2 id="nbspparaqusirveprogramar">&nbsp;¿Para qué sirve programar?</h2>
+<p>Dado que todo programa está diseñado para satisfacer una necesidad en particular o realizar una tarea específica, podemos asumir que programar es una forma de <strong>automatizar</strong> ciertas acciones que se vuelven rutinarias; es una manera de resolver problemas. Veamos algunos ejemplos de actualidad:</p>
+<ul>
+<li><strong>Necesitamos formas de comunicarnos en tiempo real.</strong> WhatsApp, Messenger, Telegram y cuanta red social o aplicación de mensajería exista son ejemplos de programas.</li>
+<li><strong>Necesitamos recordar números de teléfono.</strong> Prácticamente no existe teléfono que no incluya un programa (o aplicación) de "Agenda" o "Contactos".</li>
+</ul>
+<p>Existen programas de variados tamaños o complejidades, desde una calculadora hasta la navegación de un transbordador especial, pasando por Candy Crush.</p>
+<p>Aprender sobre esta actividad nos empodera a transformar la realidad desde un ejercicio mental que combina lo creativo con lo lógico. Es como armar rompecabezas, donde las piezas que tratamos de encajar son bloqueos de código que, integrados, conforman un programa.</p>
+<h2 id="todoesunprograma">¿Todo es un programa?</h2>
+<p>En un sentido, sí. Y las páginas web, por ejemplo, no son la excepción. Hoy por hoy, en la era de la hipercomunicación, Argentina lidera en el continente en materia de penetración de Internet, donde 9 de cada 10 personas está conectada a la red de redes. Es común hablar de búsquedas en Google, subir fotos a Instagram, participar en acaloradas discusiones en Twitter, por mencionar algunos ejemplos.</p>
+<p>Todas estas actividades son llevadas a cabo a través de programas que interactúan con otros programas. El navegador es un programa; los resultados de una bíusqueda son la respuesta de otro programa. <strong>Un sitio web, entonces, es un programa o conjunto de programas.</strong></p>
+<h2 id="cualquierapuedeprogramar">¿Cualquiera puede programar?</h2>
+<p>Esta es una pregunta que se ha respondido muchísimas veces en la historia de la computación.</p>
+<p>Podría enumerar cada uno de los casos, pero es mejor ir a la respuesta: <strong>¡sí!</strong> Cualquiera puede programar, con el debido entrenamiento y práctica.</p>
+<p>Como con cualquier otra habilidad, hay personas a las que puede resultarle más fácil o más difícil. Es importante remarcar algo en este punto: <strong>todas las personas aprendemos de distintas maneras</strong>. </p>
+<p>Si te considerás una persona analítica, probablemente te guste resolver problemas siguiendo un método ordenado y lógico, descomponiéndolo en partes más pequeñas y simples. Por otra parte, si sos una persona intuitiva, vas a intentar encontrar respuestas a través de procesos más exploratorios, probando por ensayo y error, buscando soluciones alternativas.</p>
+<p>Todo depende de los procesos cognitivos y de la manera que percibís e interactuás con el mundo. <strong>Ninguna forma es mejor que otra.</strong> Es más, los resultados más interesantes surgen de confiar en diversas metodologías de pensamiento.</p>
+<p>Un mito muy común es que si no sabés matemática, no podés programar. <strong>Esto es falso.</strong> Ciertamente puede ser una herramienta útil, pero es sólo eso: una herramienta. Ayuda porque es una forma de ejercitar el pensamiento lógico-abstracto, pero sin duda no es la única.</p>
+<p>Por esto, no te frustres si algo no sale a la primera. Aprender a programar es como aprender un idioma: ¡hay que practicar, practicar y practicar! Y, si lo hacés en buena compañía, ¡es más divertido!</p>]]></description><link>https:/joey.works/todo-empezo-con-una-condesa-una-historia-de-la-programacion/</link><guid isPermaLink="true">https:/joey.works/todo-empezo-con-una-condesa-una-historia-de-la-programacion/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Mon, 13 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Estoy en el lugar correcto]]></title><description><![CDATA[<p>Hace poco más de 20 años que trabajo en el rubro de tecnología, pasando por distintos
 roles y experiencias, tanto en el ámbito público como el ámbito privado, tanto en relación
-de dependencia como en mis propios emprendimientos, tanto solo como en equipo.
-
-Bajo ciertos estándares y expectaivas, puedo considerarme una persona exitosa. Tengo un
+de dependencia como en mis propios emprendimientos, tanto solo como en equipo.</p>
+<p>Bajo ciertos estándares y expectativas, puedo considerarme una persona exitosa. Tengo un
 trabajo que amo, contribuyo a la sociedad, tengo un buen pasar económico y me encuentro
-en una relación saludable y feliz con mi familia.
-
-Todo ese tiempo, todos estos logros... y todavía tengo una vocecita en mi cabeza que me
-dice:
-
-> ¿Pero quién te creés que sos? ¿Qué te hace pensar que servís para esto?
-
-[Pauline Clance](https://paulineroseclance.com/impostor_phenomenon.html) y 
-[Suzanne Imes](https://www.psychologytoday.com/us/therapists/suzanne-imes-atlanta-ga/69147) en 1978, le dieron nombre a esa diminuta pero
-incesante voz: **"Impostor Phenomenon"** (o como se lo conoce en español, **"síndrome
-del impostor"**).
-
-Darse cuenta de los síntomas no es fácil, porque por mucha retroalimentación externa que recibamos,
+en una relación saludable y feliz con mi familia.</p>
+<p>Todo ese tiempo, todos estos logros… y todavía tengo una vocecita en mi cabeza que me
+dice:</p>
+<blockquote>
+  <p>¿Pero quién te creés que sos? ¿Qué te hace pensar que servís para esto?</p>
+</blockquote>
+<p><a href="https://paulineroseclance.com/impostor_phenomenon.html">Pauline Clance</a> y 
+<a href="https://www.psychologytoday.com/us/therapists/suzanne-imes-atlanta-ga/69147">Suzanne Imes</a> en 1978, le dieron nombre a esa diminuta pero
+incesante voz: <strong>"Impostor Phenomenon"</strong> (o como se lo conoce en español, <strong>"síndrome
+del impostor"</strong>).</p>
+<p>Darse cuenta de los síntomas no es fácil, porque por mucha retroalimentación externa que recibamos,
 nuestra psique tiene el voto definitivo para decidir si somos merecedores o no del reconocimiento.
 La persona impostora se considera exitosa por un "golpe de suerte", un factor externo invisible
-que de algún modo fue crucial para alcanzar la meta, cualquiera sea.
-
-[Valerie Young](https://impostorsyndrome.com/my-impostor-story/), doctorada en Educación, en
-[su charla TED](https://www.youtube.com/watch?v=h7v-GG3SEWQ) sobre este síndrome, comienza
-por preguntarle a la audiencia:
-
-> ¿Alguna vez tuvieron ese miedo de que se metieron en algo que los excede
-> y que los demás se van a dar cuenta?
-
-Siete de cada diez personas ha experimentado al menos una vez esta clase de temor.
-
-Las personas impostoras parecen ser expertas en desacreditar sus logros. 
-[Lou Solomon](https://interactauthentically.com/portfolio/interact-team/lou-solomon-founder/),
+que de algún modo fue crucial para alcanzar la meta, cualquiera sea.</p>
+<p><a href="https://impostorsyndrome.com/my-impostor-story/">Valerie Young</a>, doctorada en Educación, en
+<a href="https://www.youtube.com/watch?v=h7v-GG3SEWQ">su charla TED</a> sobre este síndrome, comienza
+por preguntarle a la audiencia:</p>
+<blockquote>
+  <p>¿Alguna vez tuvieron ese miedo de que se metieron en algo que los excede
+  y que los demás se van a dar cuenta?</p>
+</blockquote>
+<p>Siete de cada diez personas ha experimentado al menos una vez esta clase de temor.</p>
+<p>Las personas impostoras parecen ser expertas en desacreditar sus logros. 
+<a href="https://interactauthentically.com/portfolio/interact-team/lou-solomon-founder/">Lou Solomon</a>,
 fundadora de Interact Studio, cuando respondía a un elogio sobre los buenos empleos que iba
-sumando a su carrera profesional, decía:
-
-> Es que tuve suerte.
-
-Y esto no sólo nos sucede en lo profesional. Podemos sentirnos impostores ante la vida misma,
+sumando a su carrera profesional, decía:</p>
+<blockquote>
+  <p>Es que tuve suerte.</p>
+</blockquote>
+<p>Y esto no sólo nos sucede en lo profesional. Podemos sentirnos impostores ante la vida misma,
 pensando que el resto del mundo tiene todo resuelto y perfactamente claro, excepto vos.
-_Excepto yo_. Otra persona nos elogia por nuestros logros y nos sentimos como si estuviéramos
-engañándole.
-
-[Mike Cannon-Brookes](https://en.wikipedia.org/wiki/Mike_Cannon-Brookes), CEO de Atlassian,
-dice que la mayoría de los días [no sabe bien lo que está haciendo](https://www.youtube.com/watch?v=zNBmHXS3A6I),
-y plantea una característica muy particular sobre cómo se siente este síndrome:
-
-> No es miedo a fallar, es más bien como si estuviéras saliéndote con la tuya.
-
-Como si fuésemos conscientes de que, de alguna manera, engañamos al sistema y estamos haciendo
-algo que no deberíamos, ocupando un lugar que alguien merece mucho más que nosotros.
-
-[Phil McKinney](https://philmckinney.com/about-phil/), ex CTO de Hewlett-Packard,
-considera que _"los seres humanos tienen un [súperpoder increíble](https://www.youtube.com/watch?v=ewv_47rhcQI): convencerse de que_
-_algo es cierto, cuando en verdad no lo es"_.
-
-¿Te está sonando algo de todo esto? Si es así, quizá este dato te ayude:
-
-> 7 de cada 10 personas ha experimentado al menos una vez el síndrome del impostor.
-
-No sos la única persona que ha pasado por esto, ¡lo cual es genial! ¿Por qué? Porque podemos
-ayudarnos mutuamente.
-
-Si nada de esto te ha pasado, considerate una persona afortunada. Te invito a seguir leyendo,
-para que nos entiendas un poco más a los que estamos conviviendo con este incordio.
-
-No me considero un experto en el tema, como buen caso de síndrome del impostor que soy.
-De todos modos, pretendo compartir algunas de las cosas que a mí me ayudan a sentirme mejor.
-
-En primer lugar, naturalizar y hablar abiertamente del tema, llamándolo por su nombre.
+<em>Excepto yo</em>. Otra persona nos elogia por nuestros logros y nos sentimos como si estuviéramos
+engañándole.</p>
+<p><a href="https://en.wikipedia.org/wiki/Mike_Cannon-Brookes">Mike Cannon-Brookes</a>, CEO de Atlassian,
+dice que la mayoría de los días <a href="https://www.youtube.com/watch?v=zNBmHXS3A6I">no sabe bien lo que está haciendo</a>,
+y plantea una característica muy particular sobre cómo se siente este síndrome:</p>
+<blockquote>
+  <p>No es miedo a fallar, es más bien como si estuviéras saliéndote con la tuya.</p>
+</blockquote>
+<p>Como si fuésemos conscientes de que, de alguna manera, engañamos al sistema y estamos haciendo
+algo que no deberíamos, ocupando un lugar que alguien merece mucho más que nosotros.</p>
+<p><a href="https://philmckinney.com/about-phil/">Phil McKinney</a>, ex CTO de Hewlett-Packard,
+considera que <em>"los seres humanos tienen un <a href="https://www.youtube.com/watch?v=ewv_47rhcQI">súperpoder increíble</a>: convencerse de que</em>
+<em>algo es cierto, cuando en verdad no lo es"</em>.</p>
+<p>¿Te está sonando algo de todo esto? Si es así, quizá este dato te ayude:</p>
+<blockquote>
+  <p>7 de cada 10 personas ha experimentado al menos una vez el síndrome del impostor.</p>
+</blockquote>
+<p>No sos la única persona que ha pasado por esto, ¡lo cual es genial! ¿Por qué? Porque podemos
+ayudarnos mutuamente.</p>
+<p>Si nada de esto te ha pasado, considerate una persona afortunada. Te invito a seguir leyendo,
+para que nos entiendas un poco más a los que estamos conviviendo con este incordio.</p>
+<p>No me considero un experto en el tema, como buen caso de síndrome del impostor que soy.
+De todos modos, pretendo compartir algunas de las cosas que a mí me ayudan a sentirme mejor.</p>
+<p>En primer lugar, naturalizar y hablar abiertamente del tema, llamándolo por su nombre.
 La sociedad ya tiene suficientes tabúes como para que estemos sumando uno más con el síndrome.
 Para esto, tenemos que saber a quién acudir y ser inteligentes en nuestras decisiones. Si estamos
 en un entorno laboral que no contiene, que no empatiza y que hace prevalecer la competencia
 de los egos antes que la colaboración y la cooperación, tratemos de apoyarnos en personas que se
-mantengan al margen de este juego perverso. El síndrome del imposter impacta de lleno en nuestra
-autoestima y nuestra capacidad de confiar en los demás.
-
-Otro acto indispensable es el de no torturarnos y autosometernos cuando nos sentimos fuera de lugar
+mantengan al margen de este juego perverso. El síndrome del impostor impacta de lleno en nuestra
+autoestima y nuestra capacidad de confiar en los demás.</p>
+<p>Otro acto indispensable es el de no torturarnos y autosometernos cuando nos sentimos fuera de lugar
 o como impostores. Mirar en retrospectiva el camino que hemos hecho para llegar a donde estamos hoy
 y valorar cada logro (e incluso cada fracaso), porque somos, entre otras cosas, la suma de
-nuestros actos.
-
-Volvamos por un momento a lo que menciona McKinney sobre este _"súperpoder humano"_ y usémoslo
+nuestros actos.</p>
+<p>Volvamos por un momento a lo que menciona McKinney sobre este <em>"súperpoder humano"</em> y usémoslo
 a nuestro favor. Si somos tan eficientes en convencernos de que algo es cierto, incluso cuando no lo es,
 reencuadremos nuestro pensamiento. Solomon lo mencionaba en su
-[charla TED](https://www.youtube.com/watch?v=whyUPLJZljE) también, en consonancia
-con un viejo dicho: "una mentira dicha cien veces se vuelve verdad". Repitamos en voz alta:
-
-> "Estoy en el lugar correcto, en el momento preciso, y todo cuanto viví me condujo hasta aquí"
-
-No importa si no nos sentimos así. Importa que pensemos que es así. _"Los sentimientos son_
-_los últimos en cambiar"_, dice Young. Y esto es clave, **porque podemos moldear nuestro pensamiento**.
-
-Young también dice:
-
-> "La única diferencia entre quienes sufrimos este síndrome y quienes no, es que pensamos
-> diferentes pensamientos"
-
-Forzarnos a pensar como una persona no impostora ayuda a hacer más llevadero todo esto y, si nos detenemos
+<a href="https://www.youtube.com/watch?v=whyUPLJZljE">charla TED</a> también, en consonancia
+con un viejo dicho: "una mentira dicha cien veces se vuelve verdad". Repitamos en voz alta:</p>
+<blockquote>
+  <p>"Estoy en el lugar correcto, en el momento preciso, y todo cuanto viví me condujo hasta aquí"</p>
+</blockquote>
+<p>No importa si no nos sentimos así. Importa que pensemos que es así. <em>"Los sentimientos son</em>
+<em>los últimos en cambiar"</em>, dice Young. Y esto es clave, <strong>porque podemos moldear nuestro pensamiento</strong>.</p>
+<p>Young también dice:</p>
+<blockquote>
+  <p>"La única diferencia entre quienes sufrimos este síndrome y quienes no, es que pensamos
+  diferentes pensamientos"</p>
+</blockquote>
+<p>Forzarnos a pensar como una persona no impostora ayuda a hacer más llevadero todo esto y, si nos detenemos
 a reflexionar por un momento, tiene sentido. Es como meditar, pero en vez de ir a nuestro "lugar feliz"
 para tratar de calmarnos, miramos todo el camino que hemos recorrido y nos permitimos reconocer
-el mérito de nuestros logros.
-
-Creo que lo más revelador es esto: muchísimas personas se equivocan o tienen habilidades más desarrolladas que
-otras... **¡y está perfectamente bien!** ¿Cuál es el problema si no tenés buena caligrafía? ¿O si no te sale
-diagramar conceptos? ¿O si te cuesta escribir informes?
-
-Nadie nace sabiendo, y cada persona tiene sus habilidades, proficiencias y carencias. No podemos
-(ni tenemos por qué) ser eficientes en todo lo que hacemos.
-
-Reconocer que está bien pedir ayuda cuando algo no sale como queremos abre un universo de posibilidades
-que quizá por tu cuenta no hubieses imaginado posible.
-
-Y lo mejor de todo es que te da la chance de aprender. Y con un poco de trabajo **(y no suerte)**, quizá,
-de ser un poco más feliz.
-
-No hay una bala de plata o una receta mágica para salir de este síndrome. Cada persona tiene que encontrar
-su camino.
-
-Ahora sabés que no es algo que te pasa a vos nomás. Y eso da esperanza, porque en conjunto,
-podemos compartir más diversidad de ideas y encontrarle la vuelta juntos.
-
-Hoy te propongo dar el primer paso: reconocé tu esfuerzo. Celebrá tus logros, porque no son
+el mérito de nuestros logros.</p>
+<p>Creo que lo más revelador es esto: muchísimas personas se equivocan o tienen habilidades más desarrolladas que
+otras… <strong>¡y está perfectamente bien!</strong> ¿Cuál es el problema si no tenés buena caligrafía? ¿O si no te sale
+diagramar conceptos? ¿O si te cuesta escribir informes?</p>
+<p>Nadie nace sabiendo, y cada persona tiene sus habilidades, proficiencias y carencias. No podemos
+(ni tenemos por qué) ser eficientes en todo lo que hacemos.</p>
+<p>Reconocer que está bien pedir ayuda cuando algo no sale como queremos abre un universo de posibilidades
+que quizá por tu cuenta no hubieses imaginado posible.</p>
+<p>Y lo mejor de todo es que te da la chance de aprender. Y con un poco de trabajo <strong>(y no suerte)</strong>, quizá,
+de ser un poco más feliz.</p>
+<p>No hay una bala de plata o una receta mágica para salir de este síndrome. Cada persona tiene que encontrar
+su camino.</p>
+<p>Ahora sabés que no es algo que te pasa a vos nomás. Y eso da esperanza, porque en conjunto,
+podemos compartir más diversidad de ideas y encontrarle la vuelta juntos.</p>
+<p>Hoy te propongo dar el primer paso: reconocé tu esfuerzo. Celebrá tus logros, porque no son
 resultado del azar. Son el reflejo de quien sos. Y a tus errores también, que son las oportunidades
-donde más aprendizaje hay.
-
-Y, si te animás, sólo por hoy, decí en voz alta:
-
-> "No soy un impostor. No soy un fraude. Estoy acá por mí."
-]]></description><link>https:/joey.works/estoy-en-el-lugar-correcto/</link><guid isPermaLink="true">https:/joey.works/estoy-en-el-lugar-correcto/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Thu, 16 Apr 2020 00:00:00 GMT</pubDate></item></channel></rss>
+donde más aprendizaje hay.</p>
+<p>Y, si te animás, sólo por hoy, decí en voz alta:</p>
+<blockquote>
+  <p>"No soy un impostor. No soy un fraude. Estoy acá por mí."</p>
+</blockquote>]]></description><link>https:/joey.works/estoy-en-el-lugar-correcto/</link><guid isPermaLink="true">https:/joey.works/estoy-en-el-lugar-correcto/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Thu, 16 Apr 2020 00:00:00 GMT</pubDate></item></channel></rss>

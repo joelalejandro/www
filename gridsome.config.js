@@ -1,3 +1,6 @@
+const showdown = require("showdown");
+const converter = new showdown.Converter();
+
 module.exports = {
   siteName: 'joey.works | Trabajos e ideas de Joel A. Villarreal Bertoldi',
   siteDescription: "¡Hola! Soy Joey, un emprendedor de Córdoba, Argentina. Me dedico al diseño gráfico y al desarrollo de software. En este espacio comparto algunas ideas y trabajos que voy haciendo.",
@@ -56,6 +59,8 @@ module.exports = {
           title: 'joey.works',
           feed_url: 'https://joey.works/feed.xml',
           site_url: 'https://joey.works',
+          image_url: 'https://joey.works/android-chrome-512x512.png',
+          language: 'es'
         },
         feedItemOptions: node => ({
           title: node.title,
@@ -78,10 +83,12 @@ module.exports = {
           title: 'joey.works',
           feed_url: 'https://joey.works/feed-full.xml',
           site_url: 'https://joey.works',
+          image_url: 'https://joey.works/android-chrome-512x512.png',
+          language: 'es'
         },
         feedItemOptions: node => ({
           title: node.title,
-          description: node.content,
+          description: converter.makeHtml(node.content.replace(/\/images/g, "https://joey.works/images")),
           url: 'https:/joey.works' + node.path,
           author: node.author,
           date: node.date,

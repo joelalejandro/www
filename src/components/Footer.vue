@@ -50,15 +50,15 @@
           </li>
           <li class="px-2">
             <a
-              href="/sitemap.xml"
+              href="/feed.xml"
               class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
-            >Mapa del sitio</a>
+            >RSS breve</a>
           </li>
           <li class="px-2">
             <a
               href="/feed.xml"
               class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
-            >Leé el blog en RSS</a>
+            >RSS completo</a>
           </li>
         </ul>
       </nav>
