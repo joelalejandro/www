@@ -70,6 +70,28 @@ module.exports = {
         },
       },
     },
+    {
+      use: 'gridsome-plugin-rss',
+      options: {
+        contentTypeName: 'Post',
+        feedOptions: {
+          title: 'joey.works',
+          feed_url: 'https://joey.works/feed-full.xml',
+          site_url: 'https://joey.works',
+        },
+        feedItemOptions: node => ({
+          title: node.title,
+          description: node.content,
+          url: 'https:/joey.works' + node.path,
+          author: node.author,
+          date: node.date,
+        }),
+        output: {
+          dir: './static',
+          name: 'feed-full.xml',
+        },
+      },
+    },
   ],
 
   templates: {
