@@ -91,14 +91,6 @@ import PostHeader from "~/components/PostHeader";
 import Comments from "@/components/Comments";
 
 const injectCommento = () => {
-  if (!process.isClient) {
-    return {};
-  }
-
-  if (!window.location.href.includes("joey.works")) {
-    return {};
-  }
-
   return { src: "https://cdn.commento.io/js/commento.js", defer: true };
 };
 
