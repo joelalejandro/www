@@ -34,7 +34,8 @@
 
   .commento-name,
   [for="commento-anonymous-checkbox-root"],
-  .commento-body {
+  .commento-body,
+  .commento-root * {
     @apply text-gray-300 !important;
   }
 }
