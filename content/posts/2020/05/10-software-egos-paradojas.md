@@ -66,7 +66,7 @@ con su buena cuota de verdad), con frases como:
 
 >- _Todo lo que dijeron en esta reunión es obvio y todos ustedes, obviamente, son_
 >  _más inseguros que yo._
->- _No puedo mentorear a otras personas porqeue siempre seré mejor._
+>- _No puedo mentorear a otras personas porque siempre seré mejor._
 >- _Las habilidades de comunicación son para personas que no tienen la razón._
 
 ¿Por qué este culto estúpido e insensato hacia el individuo? Esta **repleto** de
