@@ -94,7 +94,7 @@ y colectivamente no se los interpela, no se los cuestiona.
 Estuve de los dos lados de la moneda: soportando dinosaurios y viendo equipos que
 prosperan gracias a su diversidad, empuje colaborativo y pensamiento creativo.
 
-_Ya sabemos lo que le sucedió a los dinosuarios, ¿no?_
+_Ya sabemos lo que le sucedió a los dinosaurios, ¿no?_
 
 Si estás leyendo esta nota y tenés la responsabilidad de coordinar un equipo,
 no pretendo darte la receta que lo resuelve todo porque no la tengo, pero
