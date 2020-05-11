@@ -69,6 +69,9 @@ con su buena cuota de verdad), con frases como:
 >- _No puedo mentorear a otras personas porque siempre seré mejor._
 >- _Las habilidades de comunicación son para personas que no tienen la razón._
 
+_**Nota:** El uso del género masculino en esta traducción es deliberado y hace al_
+_punto que estoy discutiendo en el artículo._
+
 ¿Por qué este culto estúpido e insensato hacia el individuo? Esta **repleto** de
 buenas prácticas en torno al trabajo en equipo, a la actividad colaborativa,
 al intercambio de ideas, y sin embargo, acá estamos, en una de las industrias más
@@ -108,6 +111,8 @@ Creo que la invitación es clara: seamos más consistentes como inudstria. Si so
 sinónimo de progreso e innovación, pensar como la Santa Inquisición en el medioevo
 no puede ser la respuesta.
 
-
-
+<small><font color="teal">Editado el 10/05/2020 a las 23:36 hs.: Un comentario anónimo me incentivó a rechequar
+la neutralidad de genéro del artículo. Se agregó una aclaración en la traducción
+de una parodia para indicar que se trata de un uso deliberado del lenguaje
+no inclusivo.</font></small>
 
