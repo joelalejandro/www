@@ -38,4 +38,8 @@
   .commento-root * {
     @apply text-gray-300 !important;
   }
+
+  .commento-root textarea {
+    background: #12191f !important;
+  }
 }
