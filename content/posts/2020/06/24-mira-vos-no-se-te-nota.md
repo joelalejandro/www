@@ -4,10 +4,10 @@ date: 2020-06-24 00:00:00
 author: Joel A. Villarreal Bertoldi
 slug: mira-vos-no-se-te-nota
 tags: 
+  - diversidad
   - industria
   - reflexiones
   - liderazgo
-  - diversidad
 description: "Una publicación dedicada al Mes del Orgullo LGBTIQ+."
 cover: /images/posts/mira-vos-no-se-te-nota/cover-art.jpg
 fullscreen: true
