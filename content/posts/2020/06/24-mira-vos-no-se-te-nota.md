@@ -1,0 +1,87 @@
+---
+title: "Mirá vos, no se te nota"
+date: 2020-06-24 00:00:00
+author: Joel A. Villarreal Bertoldi
+slug: mira-vos-no-se-te-nota
+tags: 
+  - industria
+  - reflexiones
+  - liderazgo
+  - diversidad
+description: "Una publicación dedicada al Mes del Orgullo LGBTIQ+."
+cover: /images/posts/mira-vos-no-se-te-nota/cover-art.jpg
+fullscreen: true
+
+---
+
+En 2014, publiqué en mi perfil en Facebook una foto besando a mi pareja mientras estaba de licencia en mi trabajo. Recuerdo que era verano. En aquel entonces era desarrollador de software para un equipo de tecnología en un organismo de la administración pública. Me escribió por chat una compañera de trabajo diciéndome "no sabés el revuelo que causó en la oficina tu foto". Recuerdo que me dio ansiedad y dudé muchísimo si había hecho bien en subir la foto (y ya había dado bastantes vueltas para elegir publicarla en su momento). 
+
+A los pocos días volví al trabajo, y mi compañera me cuenta que un funcionario de cargo alto se acercó y le preguntó: "¿Viste la foto que publicó Joel?" seguido de un "Me tiene preocupado". **"Preocupado"**. Nunca me sentí tan intimidado por un significante como la palabra "preocupado" hasta ese día. Sonaba casi a que había hecho algo mal. Un rato más tarde, un compañero me dice "mirá vos, no me lo esperaba, no se te nota". Yo por dentro pensando "qué alivio". **"No se te nota"**. ¿Tenía alguna mancha en la piel y no me había dado cuenta? ¿Hablaba de alguna forma extraña? ¿Era algo en mi forma de caminar? ¿Qué era lo que se me notaba o no notaba?
+
+Tres días antes de efectivizar mi renuncia a ese trabajo, un futuro ex compañero se me acerca para ofrecerme una oportunidad laboral de dudosa ética profesional, a lo cual le pregunto "¿pero por qué me ofrecés a mí esto, si yo quiero irme de acá y no volver?". Y su respuesta me dejó sin palabras: "ves, yo sabía que iba a pasar esto, que te ibas a confundir conmigo". Pasa una mujer trans por la vereda y me dice "ese es más mi estilo, de última".
+
+Miro al Joey del pasado mientras ordeno mis ideas y no puedo evitar preguntarme qué hubiese hecho distinto.
+
+Tiempo después, nuevo trabajo. En una de las primeras juntadas informales que tuve en el equipo al que me sumé, un compañero estaba convencido de que yo estaba interesado en una chica del equipo y buscaba sacarme el nombre de quién era. Los demás estaban riéndose despacito porque ya sabían lo que se venía: "pero si me gusta la verga, pibe, qué decis!?". La carcajada debe haber durado 10 minutos, y yo también me estaba riendo. El pobre chico se había quedado con cara de "no me vi venir eso" y en retrospectiva, lo debo haber avergonzado bastante en su momento.
+
+Mismo año, en una cena en un viaje laboral. "Dale, vos sabés el nombre de todos los gays de la oficina", dice uno de los chicos a la única chica del grupo. "¿Pero qué te pensás que te voy a decir los nombres?", responde ella, tratando de hacerle entender que lo que está queriendo saber no es algo que le concierna. "Son 3, ¿no?", insiste el chico. La chica lo ignora, y en un momento termina diciendo "bueno, ¿y quién más entonces?", y yo levanto la mano y digo "¡Hola!". La cara de "qué acaba de suceder" del chico es inolvidable. Era viernes a la noche, salimos a tomar algo y volvimos cada uno al hotel. A los pocos días, la misma chica me cuenta: "me volví en taxi con él, y me dijo que tenía miedo de subirse al mismo taxi que vos por miedo a que te le insinuaras".
+
+Un par de años más tarde, una compañera de trabajo se acerca en un descanso a pedirme consejos de moda. La miro y le digo "¿vos viste cómo estoy vestido?". Me mira de arriba a abajo y me dice "oh, pero qué decepción, se supone que vos tenés que saber de estas cosas, ¿y ahora qué hago?". Porque no todas son pálidas, no quiero dejar de comentar que esta chica es ahora una de mis amigas más cercanas y bromeamos seguido respecto a esta conversación. Pero sí voy a traer a reflexión la siguiente pregunta: ¿por qué se supone que yo tengo que saber de X o Y por ser quien soy?
+
+No le di mucha importancia a ninguna otra de las historias que podría contar en el momento en que ocurrieron. Llego a la conclusión de que probablemente no hubiera hecho nada distinto, porque mis preocupaciones y mi madurez eran otras en ese entonces. 
+
+Las historias que elegí compartir no fueron elegidas al azar. Que hoy en día cuestiones como la diversidad y la inclusión estén en boca de todas las personas tampoco es casualidad. Hace algún tiempo, siento que no me puedo quedar sin hacer algo al respecto, así que por eso estamos acá.
+
+## "Hola."
+
+*"Hola, soy Joel Alejandro Villarreal Bertoldi. Pueden decirme Joey. Nacido y criado en Córdoba, tengo 30 años y porque la vida y el universo así lo quisieron, soy un hombre cisgénero homosexual, fuera del clóset por ya poco más de 10 años. Uso los pronombres él/suyo. Me dedico al software desde que tengo 10 años (sí, 10 años). Trabajo como líder técnico en Mercado Libre, soy co-fundador de la Comunidad de Desarrolladores de Argentina e instructor en DoctaDevs, una escuela de programación en Córdoba. Escribo poesía. Intenté estudiar programación por las vías formales y fracasé, pero gracias a mi papá, aprendí las bases para luego formarme por mis propios medios. Mi rebeldía familiar fue estudiar diseño gráfico. Por un experimento caprichoso conmigo mismo, me volví vegetariano hace 2 años y medio."*
+
+Me pregunto cuántas personas siguieron escuchándome o leyéndome mientras me presentaba después de haber dicho "hombre cisgénero homosexual" o "fuera del clóset". Ni hablemos del "uso los pronombres". ¿Qué es todo esto? ¿De dónde salió? ¿Por qué habría de importarle a alguien en un entorno laboral esta información? Yo mismo me hacía estas preguntas unos años atrás. "De esas cosas no hace falta hablar", me decía a mí mismo.
+
+Creo que en lo cotidiano se deja ver mucho cómo somos como personas y como cultura, y en particular eso se nota mucho en la forma en que trabajamos. En Latinoamérica, nuestra cultura laboral se basa en cultivar relaciones y conocernos para construir un vínculo de confianza. Dependemos de esa confianza para operar en equipo, y esto se construye en las pequeñas cosas, como por ejemplo, una charla mientras esperás en la oficina a que se haga el café o el tiempo de espera de una videollamada mientras se suman todas las personas que tienen que estar en una reunión.
+
+## "¿Qué tal tu fin de semana?"
+
+Esta pregunta invita a conocer a la persona en un nivel más íntimo. Cuando dos personas comparten afinidad, eso se convierte en territorio común sobre el cual pueden construir y cimentar una relación, ya sea personal o profesional. Imaginemos que cualquiera de ustedes cuenta que estuvieron en casa con su esposa o esposo, leyendo algún libro o viendo alguna película juntos. No pasa nada, ¿no? ¿Qué tiene de raro eso? Es lo "normal". Ahora imaginemos que seguido de ese relato, yo, una persona a la que no conocen, cuento que con mi novio estuvimos viendo qué le podemos mejorar a nuestras compus. O incluso más, digo "mi novie". Con una mano en el corazón, ¿suena igual? ¿Pasa desapercibido mi comentario? Si es así para vos, te felicito, porque eso significa (a primera vista) que quizá sos una persona un poquito más inclusiva que el resto. Si no es el caso, **no te asustes, no es tu culpa.** Probablemente (y ojalá que sí) estés en el difícil camino de deconstruir algunos preconceptos y de reconocer tus privilegios. Y si no, mi relato quizá te haga reflexionar por un momento sobre cómo te desenvolvés como persona.
+
+Suelo decir que por mucho o poco que me haya dolido todo lo que me pasó respecto a lo que piensan los demás sobre mi homosexualidad, "la saqué barata": **estoy vivo**. Basta buscar un poco en Internet para ver que a alguna persona la mataron por ser quien era: se les llama *hate crimes* o *crímenes de odio*. Hay carátulas más específicas: femicidios, transicidios. Hay personas que se quitan la vida porque no pueden soportar el odio, el rechazo, la discriminación. Queremos creer que en pleno siglo 21, año 2020, estas cosas no pasan. Lamento tener que decirles que sí, sí pasan. Muchísimo. Además de estar vivo, soy una persona privilegiada por ser hombre, ser blanco, por adherir a cierto estándar de masculinidad que aparentemente permite que "no se me note" lo homosexual y por cumplir el estereotipo esperado de la industria en la que me desempeño: la industria de la tecnología. 
+
+Recuerdo que una entrevistadora me dijo en su momento, meses luego de haber sido seleccionado para el trabajo: "caíste con los libros y esa camisa y ya me pareciste alguien interesante para contratar". La camisa en cuestión era una camisa estampada con flores, muy estilo gitano, muy colorida. Ese día llevaba el pelo largo, atado. El libro que había llevado trataba sobre arte y psicología, temas que me apasionan desde que empecé a estudiar diseño gráfico y mi ex pareja me había introducido al mundo de la psicología. Estaba sumamente nervioso, pero ojo, "que no se me note". Mantuve mi mejor cara de póker en toda la entrevista. En contrapartida, recuerdo mi primer día de trabajo en la administración pública, teniendo 20 años. La supervisora me dijo "¿pero qué hace este pendejo acá?". Me llevó casi un año que me tomaran en serio. No importaba cuánto supiera, era demasiado joven. Ese trabajo me enseñó una lección que mantuve por mucho tiempo: me ocupé de que mi trabajo profesional fuera impecable, que no pudieran usar nada de mi persona para negar mis argumentos. 
+
+## "¿Pero no se supone que vos...?"
+
+Nuestro cerebro recibe millones de piezas de información por segundo, de las cuales sólo podemos procesar conscientemente alrededor de 40. Nuestra interpretación del mundo se basa en conceptos agrupados por relaciones de proximidad, entonces asociamos, a nivel individual, a nivel grupal, a nivel social: azul para los nenes, rosa para las nenas; preferir un médico avanzado de edad a un médico joven; ver a una mujer trabajando en un hospital y asumir que es enfermera; hablar con una persona abiertamente homosexual y sorprenderse porque "no se le nota". ¿Pueden los prejuicios afectar al clima de trabajo, a nuestra productividad, a la sociedad? Veamos algunos ejemplos:
+
+- Existe una brecha salarial de género, en la que los hombres ganan más dinero que las mujeres por igual tarea en la industria tecnológica (y en otras industrias también).
+- Hay personas que piensen que la programación "es un trabajo de hombres y que a las mujeres no les interesa", cuando fueron mujeres las que hicieron los avances más significativos en la historia de la computación. 
+- El padre de la informática moderna, Alan Turing, se suicidó en 1952 tras ser condenado por las autoridades británicas por ser homosexual, para que en 2013, poco más de 60 años después, la corona inglesa le otorgue un indulto póstumo.
+
+Los prejuicios no son buenos ni malos por sí mismos. Es una forma de heurística natural. Lo que cuenta es qué hacemos con esa información. En una entrevista, los prejuicios pueden generarnos sesgos que impidan evaluar de manera objetiva a la persona. Ser conscientes de nuestros sesgos nos ayuda a ver a la persona de forma más auténtica y nos permite tomar decisiones más justas. He escuchado a un gerente decir que "si a mí me hubiese tocado entrevistarle, no le hubiese contratado", refiriéndose a un chico gay que había sido entrevistado por otra persona. Una persona con semejantes prejuicios no puede permanecer en una posición de semejante poder sin hacer cambios en su manera de pensar.
+
+Volvamos por un momento a los relatos de fin de semana. Hice uso de la palabra "normal", que viene de "norma": algo que adhiere a una convención arbitraria, establecida en nuestra sociedad, una regla implícita. Vivimos en una sociedad heteronormativa, donde la norma establece que las relaciones heterosexuales son la regla, y que cualquier cosa que se salga de eso no es "normal". A esto me refiero cuando digo que no es culpa de nadie en particular que pensemos así. Pero sí somos responsables de ser conscientes de lo que estos prejuicios significan, así como también somos responsables de decidir qué hacemos con esta información. Si actuamos como si nada sucediera, nos estamos perdiendo la oportunidad de aprender algo de quienes nos rodean, de entender una realidad distinta a la nuestra y por qué no, de crecer como personas.
+
+Supongamos que recibiste un correo electrónico de tu empleo, donde se te comenta una persona llamada Andrea se suma mañana a trabajar en tu equipo, y la persona responsable del grupo le da la bienvenida. No has visto ninguna foto de Andrea. ¿Cómo te imaginás a esa persona? ¿Es un hombre? ¿Es una mujer? Una de esas cosas que asumimos casi automáticamente y sin pensar es el género. El año pasado, salió una serie de Star Trek llamada Discovery, y quien protagonizaba era una persona llamada Michael Burnham: una mujer que había heredado el nombre de su padre, y que eligió usar un nombre masculino, por más que se identificara como mujer. 
+
+Aquí es necesario hacer un par de distinciones: **sexo** y **género** son dos conceptos separados. Uno es biológico, el otro es un rasgo de identidad. El género, en particular, admite una extensa variedad de identidades, mucho más allá de la tradicional perspectiva binaria masculina-femenina. A partir de estos principios, se explica la necesidad de usar un lenguaje inclusivo, y de ahí surgen expresiones como "chiques", "chicxs", "chic@s". Hay muchas maneras de manejar la inclusividad en el lenguaje, tanto usando la "e", la "x" o la "@", o bien prefiriendo un discurso neutro de género.
+
+## "No te vas a ofender por esa pavada."
+
+Así como procesamos muchísima información de manera inconsciente, sucede que cuando hablamos, a veces las palabras van más rápido que nuestra consciencia. Decimos cosas sin pensar. Mucho. Todas las personas hacemos esto. Y como comenté recién, asumimos, porque así funciona la mente humana. Decimos cosas sin pensar y terminamos hiriendo a otra persona, y en vez de pedir disculpas, nos justificamos. 
+
+El lenguaje está plagado de términos peyorativos que introducimos en frases cotidianas sin necesidad alguna. En Twitter, hace poco, fue tendencia nacional la frase "No seas trolo", y cuando quise comentar al respecto, la mayoría de las personas que me escribieron decía algo así como "no te ofendas, es algo que se dice" o "mirá los tweets, que no hay comentarios homofóbicos". **Bueno, que me disculpe la mayoría de las personas, pero eso no es una justificación.** Que esté aceptado popularmente que "no seas trolo" no sea un comentario peyorativo no significa que no lo sea. 
+
+He escuchado a personas enojadas decir "qué puto" estando yo presente, y mis respuestas varían en dos ejes: en el ámbito informal, respondo "a mucha honra" o "con orgullo"; en el ámbito laboral, inmediatamente le marco a la persona que no hay necesidad de decir eso así. A veces me contestan con "pero ya sabés que no lo digo por vos, no te vas a ofender por esa pavada". No es ese el punto: el punto es quebrar el estigma que genera el uso del lenguaje en este contexto.
+
+Es importante que hagamos tomar consciencia a quienes incurren en el uso de estos términos, porque pueden estar lastimando y ejerciendo violencia hacia otra persona sin saberlo, y esa persona quizá no pueda defenderse. Hay distintas herramientas para hacer esto, pero la más fácil es hablarlo, enfocándose en el comportamiento y no en la persona que lo realiza. No sirve andar repartiendo culpas; es mucho más valioso construir nuevos hábitos ayudando a que la otra persona entienda. Que no sea nuestro primer pensamiento que hay mala intención del otro lado: la gran mayoría de las veces es inconsciencia pura. Remarco por esto el punto de enfocarnos en los comportamientos que queremos cambiar, y no en las persona que los realiza.
+
+Esto asume que del otro lado hay una capacidad de empatía, pero si eso no está, la fuerza está en los números. Pedir ayuda y apoyo a otras personas para modificar este hábito puede ser una buena alternativa para estos casos. Es como dice el refrán: quien calla, otorga. Si sabemos que algo está pasando y no hacemos nada al respecto, estamos habilitando o reforzando un comportamiento pernicioso. Saber y no actuar nos hace cómplices. Tenemos que ser capaces de romper ese ciclo.
+
+## "Perdón... gracias."
+
+Muchas veces, vamos a tener éxito y vamos a poder cambiar nuestra realidad y la de otras personas. A veces recibiremos una disculpa, otras veces, no. Que nada de esto nos desaliente. Pasamos muchas horas en el trabajo y merecemos que se nos trate con respeto y dignidad, como a cualquier ser humano.
+
+Esta es la nota más difícil que he escrito en este blog, y probablemente permanezca en ese pedestal un buen tiempo. Nunca hablé de mi homosexualidad tan abiertamente como lo estoy haciendo ahora. Como le decía a un amigo, me hubiese gustado haberlo hecho antes. Pero creo que las cosas suceden por una razón, y que todo condujo a que esta madrugada del 24 de junio de 2020, me sintiese listo para hablar.
+
+Y para decir esto también, a vos que estás leyendo: si mis historias resuenan con vos y alguna vez te sentiste como me sentí yo, si estás luchando con un ambiente de trabajo tóxico o creés que no podés ser tu versión más auténtica de vos mismo, **quiero que sepas que podés contar conmigo y que tenés mi apoyo**. Tanto los comentarios de este blog como mis mensajes directos en Twitter y LinkedIn están abiertos para el diálogo. 
+
+Gracias por leerme.
