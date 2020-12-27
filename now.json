@@ -1,3 +1,9 @@
 {
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/ir",
+      "destination": "https://twitter.com/i/events/1343256028901740548"
+    }
+  }
 }
