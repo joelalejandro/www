@@ -49,16 +49,19 @@
             >Acerca de</g-link>
           </li>
           <li class="px-2">
-            <a
-              href="/feed.xml?v=1"
+            <g-link
+              to="/ask-me-anything/"
               class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
-            >RSS breve</a>
+            >Preguntame</g-link>
           </li>
           <li class="px-2">
-            <a
+            RSS: <a
+              href="/feed.xml?v=1"
+              class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
+            >breve</a> | <a
               href="/feed-full.xml?v=1"
               class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
-            >RSS completo</a>
+            >completo</a>
           </li>
         </ul>
       </nav>
