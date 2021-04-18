@@ -7,7 +7,7 @@
     },
     {
       "source": "/preguntame",
-      "destination": "/ask-me-anything"
+      "destination": "/ask-me-anything/"
     }
   ]
 }
