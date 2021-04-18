@@ -2,18 +2,20 @@
   <Layout>
     <main>
       <header class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto text-center px-6 pt-24">
-        <h1 class="text-4xl sm:text-5xl md:text-6xl font-caption font-bold mb-1 dark:text-teal-300">¡Qué bueno verte por aquí!</h1>
-        <p class="text-grey-dark text-lg sm:text-3xl dark:text-teal-600">Permitime presentarme.</p>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-caption font-bold mb-1 dark:text-teal-300">¿Charlamos?</h1>
+        <p class="text-grey-dark text-lg sm:text-3xl dark:text-teal-600">Este espacio es para debatir.</p>
       </header>
       <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
         <g-link to="/" class="text-gray-900 dark:text-gray-400 border-gray-400 text-sm border opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity duration-300">&larr; Volver a la portada</g-link>
       </nav>
       <article class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16 border-b border-gray-300 pb-10 mb-16">
         <div class="markdown text-lg leading-normal text-gray-700 dark:text-gray-300">
-          <img src="https://pbs.twimg.com/profile_images/1356413015420264448/dsWrENUC_400x400.jpg">
-          <p>Mi nombre es Joel Alejandro Villarreal Bertoldi (sí, mi nombre es ideal para romper maquetado de formularios con sus portentosos 34 caracteres con espacios).</p>
-          <p>Nací el 15 de enero de 1990, tan capricorniano que arruiné los planes de mis padres de nacer en Acuario. Al momento que leés esta pantalla, debería tener unos {{ new Date().getFullYear() - 1990 }} años, dadas ciertas condiciones (como por ejemplo, estar vivo).</p>
-          <p>Me tocó vivir la infancia y adolescencia de la web. Programo desde mediados del año 2000, y el único lenguaje que me acompañó incansablemente durante casi dos décadas fue y es JavaScript. Mientras tanto, jugué con BASIC, QBASIC y QuickBASIC, Visual Basic, DHTML (cuando el único navegador que gobernaba Internet era Internet Explorer 5.5), ASP (antes de .NET), PHP, C#, SQL, PL/SQL y más recientemente JavaScript y su primo estricto, TypeScript, CSS y su prima superpoderosa, SCSS.</p>
+          Creé este espacio en mi blog para poder conversar y discutir. Acá podrás hacerme preguntas a las que yo pueda responder para contarte un poco
+          de mi experiencia en el rubro.
+        </div>
+        <div class="markdown text-lg leading-normal text-gray-700 dark:text-gray-300">
+          ¿Qué podés preguntar? Cualquier pregunta de índole profesional es bienvenida. Si es una pregunta que no me podrías hacer cara a cara,
+          es una pregunta que probablemente tampoco vaya a responder por medios digitales.
         </div>
       </article>
       <site-footer class="pb-8 sm:pb-10" />
@@ -31,7 +33,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: 'Acerca de mí',
+      title: 'Preguntas',
       meta: [
         {
           key: 'description',
@@ -59,7 +61,7 @@ export default {
       return config
     },
     ogDescription () {
-      return 'Acerca de mí, ¡Joey!.'
+      return 'Un espacio para que me preguntes lo que quieras.'
     },
     ogImageUrl () {
       return `${this.config.siteUrl}/android-chrome-512x512.png`;
