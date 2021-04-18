@@ -7,7 +7,7 @@
       <a title="Seguime en GitHub" href="https://github.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="github" /></a>
       <a title="Seguime en LinkedIn" href="https://linkedin.com/in/joelvillarrealbertoldi" target="_blank" rel="noopener noreferrer"><icon name="linkedin" /></a>
     </div>
-    <div class="w-full sm:w-1/2 mb-4 sm:mb-0">
+    <div class="w-full sm:w-1/3 mb-4 sm:mb-0">
       <p>
         Basado en el tema
         <a
@@ -31,7 +31,7 @@
         >Tailwind CSS</a>.
       </p>
     </div>
-    <div class="w-full sm:w-1/2">
+    <div class="w-full sm:w-2/3">
       <nav>
         <ul class="flex sm:justify-end -mx-2">
           <li class="px-2">
