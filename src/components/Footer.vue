@@ -9,7 +9,7 @@
     </div>
     <div class="w-full sm:w-1/3 mb-4 sm:mb-0">
       <p>
-        Basado en el tema
+        Basado en
         <a
           href="https://github.com/cossssmin/gridsome-starter-bleda"
           class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
@@ -20,7 +20,7 @@
         >@cossssmin</a>
       </p>
       <p>
-        Construido con
+        Hecho con
         <a
           href="https://gridsome.org"
           class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
@@ -28,7 +28,7 @@
         <a
           href="https://tailwindcss.com/"
           class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
-        >Tailwind CSS</a>.
+        >Tailwind</a>.
       </p>
     </div>
     <div class="w-full sm:w-2/3">
