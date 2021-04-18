@@ -3,9 +3,7 @@
     class="text-gray-700 dark:text-gray-600 text-sm leading-normal flex flex-wrap justify-between mx-auto max-w-3xl px-6 sm:px-12"
   >
     <div class="w-full flex justify-around mb-12">
-      <a title="Seguime en Facebook" href="https://facebook.com/joel.a.villarreal.bertoldi" target="_blank" rel="noopener noreferrer"><icon name="facebook" /></a>
       <a title="Seguime en Twitter" href="https://twitter.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="twitter" /></a>
-      <a title="Seguime en Instagram" href="https://instagram.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="instagram" /></a>
       <a title="Seguime en GitHub" href="https://github.com/joelalejandro" target="_blank" rel="noopener noreferrer"><icon name="github" /></a>
       <a title="Seguime en LinkedIn" href="https://linkedin.com/in/joelvillarrealbertoldi" target="_blank" rel="noopener noreferrer"><icon name="linkedin" /></a>
     </div>
