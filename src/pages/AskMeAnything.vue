@@ -13,7 +13,7 @@
           Creé este espacio en mi blog para poder conversar y discutir. Acá podrás hacerme preguntas a las que yo pueda responder para contarte un poco
           de mi experiencia en el rubro.
         </div>
-        <div class="markdown text-lg leading-normal text-gray-700 dark:text-gray-300">
+        <div class="markdown text-lg leading-normal text-gray-700 dark:text-gray-300 mb-24">
           ¿Qué podés preguntar? Cualquier pregunta de índole profesional es bienvenida. Si es una pregunta que no me podrías hacer cara a cara,
           es una pregunta que probablemente tampoco vaya a responder por medios digitales.
         </div>
