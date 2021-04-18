@@ -17,7 +17,10 @@
           ¿Qué podés preguntar? Cualquier pregunta de índole profesional es bienvenida. Si es una pregunta que no me podrías hacer cara a cara,
           es una pregunta que probablemente tampoco vaya a responder por medios digitales.
         </div>
+
+        <comments />
       </article>
+
       <site-footer class="pb-8 sm:pb-10" />
     </main>
   </Layout>
@@ -26,14 +29,21 @@
 <script>
 import config from '~/.temp/config.js'
 import SiteFooter from '@/components/Footer'
+import Comments from "@/components/Comments"
+
+const injectCommento = () => {
+  return { src: "https://cdn.commento.io/js/commento.js", defer: true };
+};
 
 export default {
   components: {
-    SiteFooter
+    SiteFooter,
+    Comments
   },
   metaInfo () {
     return {
       title: 'Preguntas',
+      script: [injectCommento()],
       meta: [
         {
           key: 'description',
