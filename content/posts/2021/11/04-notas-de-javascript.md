@@ -52,9 +52,9 @@ const booleano = true;
 const fecha = new Date();
 const lista = [1, 2, 3];
 const persona = { 
-  nombre: 'Julieta',
-  apellido: 'Raineri',
-  curso: 'Frontend 2020-2021'
+  nombre: 'Amanda',
+  apellido: 'Gris',
+  curso: 'JavaScript'
 };
 ```
 
