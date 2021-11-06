@@ -19,19 +19,19 @@
       </nav>
       <article class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16 border-b border-gray-300 pb-10 mb-16">
         <div class="relative wrap overflow-hidden p-10 h-full">
-            <div class="text-center -mb-3 ml-1 z-index-2 text-2xl">▲</div>
+            <div class="text-center -mb-3 ml-1 z-index-2 text-2xl text-gray-700">▲</div>
             <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
 
             <section v-for="(year, yearIndex) in Object.keys(talks).reverse()" :key="year">
               <section v-for="(talk, index) in talks[year]" :key="talk.title">
                 <div :class="`mb-8 flex justify-between w-full ${yearIndex === 0 && index === 0 ? 'pt-8' : ''} ${index % 2 ? 'flex-row-reverse left-timeline' : 'right-timeline'}`">
                   <div class="order-1 w-5/12"></div>
-                  <div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-8 rounded-full mt-4">
+                  <div class="z-20 flex items-center order-1 bg-gray-800 dark:bg-gray-600 shadow-xl w-16 h-8 rounded-full mt-4">
                     <h1 class="mx-auto text-white font-semibold text-lg">{{talk.date.substr(0, 5)}}</h1>
                   </div>
-                  <div :class="`hover:bg-gray-300 rounded-lg order-1 w-5/12 p-4 cursor-pointer ${index % 2 ? 'text-right' : 'text-left'}`" @click.prevent="open(talk)">
-                    <h3 class="mb-3 font-bold text-xl"><a :href="talk.link" target="_blank">{{talk.title}}</a></h3>
-                    <p class="text-sm font-medium leading-snug tracking-wide text-opacity-100">{{talk.venue}}</p>
+                  <div :class="`dark-hover:bg-gray-700 hover:bg-gray-300 rounded-lg order-1 w-5/12 p-4 cursor-pointer ${index % 2 ? 'text-right' : 'text-left'}`" @click.prevent="open(talk)">
+                    <h3 class="mb-3 font-bold dark:text-white text-xl"><a :href="talk.link" target="_blank">{{talk.title}}</a></h3>
+                    <p class="text-sm font-medium leading-snug dark:text-gray-500 tracking-wide text-opacity-100">{{talk.venue}}</p>
                   </div>
                 </div>
               </section>
