@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[joey.works]]></title><description><![CDATA[joey.works]]></description><link>https://joey.works</link><image><url>https://joey.works/android-chrome-512x512.png</url><title>joey.works</title><link>https://joey.works</link></image><generator>RSS for Node</generator><lastBuildDate>Fri, 01 May 2020 20:31:58 GMT</lastBuildDate><atom:link href="https://joey.works/feed-full.xml" rel="self" type="application/rss+xml"/><language><![CDATA[es]]></language><item><title><![CDATA[Composición de paletas de color a través de pruebas de contraste y proporción]]></title><description><![CDATA[<p>Existen diversos criterios a la hora de seleccionar los tonos y niveles de luz que conformarán una paleta de colores, pero ¿cómo podemos probar rápidamente cómo se comportarán estos colores al interactuar los unos con los otros?</p>
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:webfeeds="http://webfeeds.org/rss/1.0"><channel><title><![CDATA[joey.works | Trabajos e ideas de Joel A. Villarreal Bertoldi]]></title><description><![CDATA[¡Hola! Soy Joey, un emprendedor de Córdoba, Argentina. Me dedico al diseño gráfico y al desarrollo de software. En este espacio comparto algunas ideas y trabajos que voy haciendo.]]></description><link>https://joey.works</link><image><url>https://joey.works/android-chrome-512x512.png</url><title>joey.works | Trabajos e ideas de Joel A. Villarreal Bertoldi</title><link>https://joey.works</link></image><generator>RSS for Node</generator><lastBuildDate>Sat, 06 Nov 2021 15:42:59 GMT</lastBuildDate><atom:link href="https://joey.works/feed.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[2020-hoy, Joel A. Villarreal Bertoldi]]></copyright><language><![CDATA[es]]></language><managingEditor><![CDATA[Joel A. Villarreal Bertoldi]]></managingEditor><webMaster><![CDATA[Joel A. Villarreal Bertoldi]]></webMaster><ttl>60</ttl><webfeeds:logo>https://joey.works/favicon-32x32.png</webfeeds:logo><webfeeds:icon>https://joey.works/android-chrome-512x512.png</webfeeds:icon><webfeeds:related layout="card" target="browser"/><webfeeds:analytics id="UA-163336812-1" engine="GoogleAnalytics"/><item><title><![CDATA[Composición de paletas de color a través de pruebas de contraste y proporción]]></title><description><![CDATA[<p>Existen diversos criterios a la hora de seleccionar los tonos y niveles de luz que conformarán una paleta de colores, pero ¿cómo podemos probar rápidamente cómo se comportarán estos colores al interactuar los unos con los otros?</p>
 <p>La exploración del color puede llevarse adelante a través de composiciones libres para crear diseños o combinaciones cromáticas nuevas y originales. La atención exclusiva a las relaciones cromáticas supone un punto de vista creativo que da a conocer a la persona un rico legado de conocimientos y experiencias. La perspectiva cromática propuesta es fundamentalmente un <em>punto de vista visual</em><sup>1</sup>.</p>
 <p>Inspirado en las composiciones de Garth Lewis, diseñé una figura prototipo que se podía utilizar para evaluar relaciones de color en cuanto a proporción:</p>
 <p><img src="https://joey.works/images/posts/composicion-paletas-color-contraste-proporcion/figure-1.svg" alt="Yuxtaposición de figuras geométricas, cada una con su color" /></p>
@@ -21,52 +21,7 @@
 <h2 id="hayunaversinonline">¡Hay una versión on-line!</h2>
 <p>Empecé a trabajar en un prototipo de aplicación web que permite simular estos tableros de evalución de color, llamado <a href="https://cromimap.now.sh">cromimap</a> (<em>cromi</em> = color, <em>map</em> = mapa). Por ahora sólo funciona en dispositivos desktop y no tiene mucha funcionalidad, pero permite especificar hasta cuatro colores y generar la rotación correspondiente. También incluye un comando para elegir colores al azar. ¡Ideal para buscar ideas!</p>
 <h2 id="bibliografa">Bibliografía</h2>
-<p><sup>1</sup> Lewis, G.: 2000 combinaciones de color para diseñadores gráficos, textiles y artesanales. Editorial Blume. Barcelona, 2009.</p>]]></description><link>https:/joey.works/composicion-de-paletas-de-color-a-traves-de-pruebas-de-contraste-y-proporcion/</link><guid isPermaLink="true">https:/joey.works/composicion-de-paletas-de-color-a-traves-de-pruebas-de-contraste-y-proporcion/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Fri, 10 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Todo empezó con una condesa: una historia de la programación]]></title><description><![CDATA[<p><em>Este artículo sirvió como las bases de una charla que dí sobre introducción a la programación en el primer Bootcamp Web de <a href="https://metcba.org">Mujeres en Tecnología Córdoba</a>, desarrollado en 2019.</em></p>
-<p>Hace poco más de 175 años, poco menos de dos siglos, en la Londres de la era Victoriana, Augusta Ada King, más conocida como <a href="https://es.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a>, intercambiaba correspondencias con <a href="https://es.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a> durante el desarrollo de un sistema de máquinas llamado <strong>Analytical Engine</strong> (que en español, sería algo asi como la "<a href="https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica">Máquina analítica</a>").</p>
-<p>Este sistema de máquinas era el sucesor de un primer modelo llamado <strong>Difference Engine</strong> ("la <a href="https://es.wikipedia.org/wiki/M%C3%A1quina_diferencial">Máquina diferencial</a>"), que serviría para resolver funciones polinómicas.</p>
-<p>Ninguna de estas máquinas llego a construirse hasta casi un siglo después, porque la corona británica retiró su apoyo al proyecto.</p>
-<p>Sin embargo, Ada escribió paginas y páginas en una publicación inocentemente llamada <strong>Notes</strong> ("Notas"), explicando su interpretación del funcionamiento de esta maquinaria. Y en estas notas, fue la primera en teorizar que se podían computar no sólo cálculos, sino algoritmos de cualquier tipo. Fue ella, justamente, la primera en escribir estos programas, en una época donde las tarjetas perforadas eran el avance científico-computacional del momento (alrededor de 1832).</p>
-<p>Las cartas muestran discusiones al desnudo entre Ada y Charles, generalmente en el tono de "ella explicándole a Charles y exigiéndole la misma atención al detalle que ella poseía".</p>
-<p>Casi dos siglos han pasado, y la <em>Encantadora de los Números</em> (un apodo que Babbage acuñó para Lovelace) tuvo razón en muchas de sus predicciones.</p>
-<p>En una de sus notas, escribe:</p>
-<blockquote>
-  <p>"Esta maquinaria podría actuar sobre otras cosas además de números, si hubiese objetos cuyas relaciones fundamentales pudieran ser expresadas por la ciencia abstracta de las operaciones"</p>
-</blockquote>
-<p>Pensemos en esto por un momento. ¿Qué cosas podemos hacer con un libro? Abrirlo. Cerrarlo. Guardarlo en un estante. Buscar una pagína en particular. Leerlo. Todas estas acciones son semejantes a las cosas que podemos hacer con un número: sumarlo, restarlo, multiplicarlo.</p>
-<p>Esto nos permite establecer el siguiente enunciado:</p>
-<blockquote>
-  <p>"Toda realidad es representable"</p>
-</blockquote>
-<p>Esta oración representa uno de los principios de la programación, area en la que Ada Lovelace es considerada por muchos una pionera.</p>
-<p>Tenemos ya entonces, varias preguntas, pero la más grande y urgente sería: <strong>¿qué es la programación?</strong></p>
-<h2 id="queslaprogramacin">¿Qué es la programación?</h2>
-<p>Hay múltiples maneras de abordar una definición sobre qué es la programación.</p>
-<ul>
-<li>Desde la <strong>música</strong>, podemos entender la programación como la orquestación de diversos instrumentos en una serie de patrones que cumplen una función específica en la armonía musical.</li>
-<li>Desde el <strong>cine</strong> o el <strong>teatro</strong>, la dirección e interpretación de un guión, llevada adelante con un grupo de actores relacionados, cada uno con su propósito.</li>
-<li>Desde la <strong>gastronomía</strong>, como la preparación par ala receta de una comida, un cóctel o un café.</li>
-</ul>
-<p>¿Qué tienen en común todas estas actividades? <strong>Todas involucran una serie de pasos a ejecutar, con un propósito determinado en un contexto particular.</strong></p>
-<p>Esta serie de pasos a ejecutar es comúnmente conocido con el nombre de <strong>programa</strong>. También se lo conoce como rutina, script, secuencia de comandos. A su vez, cada uno de estos pasos puede llamarse, entre otras formas, <strong>instrucción</strong>.</p>
-<h2 id="nbspparaqusirveprogramar">&nbsp;¿Para qué sirve programar?</h2>
-<p>Dado que todo programa está diseñado para satisfacer una necesidad en particular o realizar una tarea específica, podemos asumir que programar es una forma de <strong>automatizar</strong> ciertas acciones que se vuelven rutinarias; es una manera de resolver problemas. Veamos algunos ejemplos de actualidad:</p>
-<ul>
-<li><strong>Necesitamos formas de comunicarnos en tiempo real.</strong> WhatsApp, Messenger, Telegram y cuanta red social o aplicación de mensajería exista son ejemplos de programas.</li>
-<li><strong>Necesitamos recordar números de teléfono.</strong> Prácticamente no existe teléfono que no incluya un programa (o aplicación) de "Agenda" o "Contactos".</li>
-</ul>
-<p>Existen programas de variados tamaños o complejidades, desde una calculadora hasta la navegación de un transbordador especial, pasando por Candy Crush.</p>
-<p>Aprender sobre esta actividad nos empodera a transformar la realidad desde un ejercicio mental que combina lo creativo con lo lógico. Es como armar rompecabezas, donde las piezas que tratamos de encajar son bloqueos de código que, integrados, conforman un programa.</p>
-<h2 id="todoesunprograma">¿Todo es un programa?</h2>
-<p>En un sentido, sí. Y las páginas web, por ejemplo, no son la excepción. Hoy por hoy, en la era de la hipercomunicación, Argentina lidera en el continente en materia de penetración de Internet, donde 9 de cada 10 personas está conectada a la red de redes. Es común hablar de búsquedas en Google, subir fotos a Instagram, participar en acaloradas discusiones en Twitter, por mencionar algunos ejemplos.</p>
-<p>Todas estas actividades son llevadas a cabo a través de programas que interactúan con otros programas. El navegador es un programa; los resultados de una bíusqueda son la respuesta de otro programa. <strong>Un sitio web, entonces, es un programa o conjunto de programas.</strong></p>
-<h2 id="cualquierapuedeprogramar">¿Cualquiera puede programar?</h2>
-<p>Esta es una pregunta que se ha respondido muchísimas veces en la historia de la computación.</p>
-<p>Podría enumerar cada uno de los casos, pero es mejor ir a la respuesta: <strong>¡sí!</strong> Cualquiera puede programar, con el debido entrenamiento y práctica.</p>
-<p>Como con cualquier otra habilidad, hay personas a las que puede resultarle más fácil o más difícil. Es importante remarcar algo en este punto: <strong>todas las personas aprendemos de distintas maneras</strong>. </p>
-<p>Si te considerás una persona analítica, probablemente te guste resolver problemas siguiendo un método ordenado y lógico, descomponiéndolo en partes más pequeñas y simples. Por otra parte, si sos una persona intuitiva, vas a intentar encontrar respuestas a través de procesos más exploratorios, probando por ensayo y error, buscando soluciones alternativas.</p>
-<p>Todo depende de los procesos cognitivos y de la manera que percibís e interactuás con el mundo. <strong>Ninguna forma es mejor que otra.</strong> Es más, los resultados más interesantes surgen de confiar en diversas metodologías de pensamiento.</p>
-<p>Un mito muy común es que si no sabés matemática, no podés programar. <strong>Esto es falso.</strong> Ciertamente puede ser una herramienta útil, pero es sólo eso: una herramienta. Ayuda porque es una forma de ejercitar el pensamiento lógico-abstracto, pero sin duda no es la única.</p>
-<p>Por esto, no te frustres si algo no sale a la primera. Aprender a programar es como aprender un idioma: ¡hay que practicar, practicar y practicar! Y, si lo hacés en buena compañía, ¡es más divertido!</p>]]></description><link>https:/joey.works/todo-empezo-con-una-condesa-una-historia-de-la-programacion/</link><guid isPermaLink="true">https:/joey.works/todo-empezo-con-una-condesa-una-historia-de-la-programacion/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Mon, 13 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Estoy en el lugar correcto]]></title><description><![CDATA[<p>Hace poco más de 20 años que trabajo en el rubro de tecnología, pasando por distintos
+<p><sup>1</sup> Lewis, G.: 2000 combinaciones de color para diseñadores gráficos, textiles y artesanales. Editorial Blume. Barcelona, 2009.</p>]]></description><link>https:/joey.works/composicion-de-paletas-de-color-a-traves-de-pruebas-de-contraste-y-proporcion/</link><guid isPermaLink="false">https:/joey.works/composicion-de-paletas-de-color-a-traves-de-pruebas-de-contraste-y-proporcion/</guid><category><![CDATA[diseño gráfico]]></category><category><![CDATA[color]]></category><category><![CDATA[experimentos]]></category><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Fri, 10 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Estoy en el lugar correcto]]></title><description><![CDATA[<p>Hace poco más de 20 años que trabajo en el rubro de tecnología, pasando por distintos
 roles y experiencias, tanto en el ámbito público como el ámbito privado, tanto en relación
 de dependencia como en mis propios emprendimientos, tanto solo como en equipo.</p>
 <p>Bajo ciertos estándares y expectativas, puedo considerarme una persona exitosa. Tengo un
@@ -174,4 +129,489 @@ donde más aprendizaje hay.</p>
 <p>Y, si te animás, sólo por hoy, decí en voz alta:</p>
 <blockquote>
   <p>"No soy un impostor. No soy un fraude. Estoy acá por mí."</p>
-</blockquote>]]></description><link>https:/joey.works/estoy-en-el-lugar-correcto/</link><guid isPermaLink="true">https:/joey.works/estoy-en-el-lugar-correcto/</guid><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Thu, 16 Apr 2020 00:00:00 GMT</pubDate></item></channel></rss>
+</blockquote>]]></description><link>https:/joey.works/estoy-en-el-lugar-correcto/</link><guid isPermaLink="false">https:/joey.works/estoy-en-el-lugar-correcto/</guid><category><![CDATA[síndrome del impostor]]></category><category><![CDATA[reflexiones]]></category><category><![CDATA[historia]]></category><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Thu, 16 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Mirá vos, no se te nota]]></title><description><![CDATA[<p>En 2014, publiqué en mi perfil en Facebook una foto besando a mi pareja mientras estaba de licencia en mi trabajo. Recuerdo que era verano. En aquel entonces era desarrollador de software para un equipo de tecnología en un organismo de la administración pública. Me escribió por chat una compañera de trabajo diciéndome "no sabés el revuelo que causó en la oficina tu foto". Recuerdo que me dio ansiedad y dudé muchísimo si había hecho bien en subir la foto (y ya había dado bastantes vueltas para elegir publicarla en su momento). </p>
+<p>A los pocos días volví al trabajo, y mi compañera me cuenta que un funcionario de cargo alto se acercó y le preguntó: "¿Viste la foto que publicó Joel?" seguido de un "Me tiene preocupado". <strong>"Preocupado"</strong>. Nunca me sentí tan intimidado por un significante como la palabra "preocupado" hasta ese día. Sonaba casi a que había hecho algo mal. Un rato más tarde, un compañero me dice "mirá vos, no me lo esperaba, no se te nota". Yo por dentro pensando "qué alivio". <strong>"No se te nota"</strong>. ¿Tenía alguna mancha en la piel y no me había dado cuenta? ¿Hablaba de alguna forma extraña? ¿Era algo en mi forma de caminar? ¿Qué era lo que se me notaba o no notaba?</p>
+<p>Tres días antes de efectivizar mi renuncia a ese trabajo, un futuro ex compañero se me acerca para ofrecerme una oportunidad laboral de dudosa ética profesional, a lo cual le pregunto "¿pero por qué me ofrecés a mí esto, si yo quiero irme de acá y no volver?". Y su respuesta me dejó sin palabras: "ves, yo sabía que iba a pasar esto, que te ibas a confundir conmigo". Pasa una mujer trans por la vereda y me dice "ese es más mi estilo, de última".</p>
+<p>Miro al Joey del pasado mientras ordeno mis ideas y no puedo evitar preguntarme qué hubiese hecho distinto.</p>
+<p>Tiempo después, nuevo trabajo. En una de las primeras juntadas informales que tuve en el equipo al que me sumé, un compañero estaba convencido de que yo estaba interesado en una chica del equipo y buscaba sacarme el nombre de quién era. Los demás estaban riéndose despacito porque ya sabían lo que se venía: "pero si me gusta la verga, pibe, qué decis!?". La carcajada debe haber durado 10 minutos, y yo también me estaba riendo. El pobre chico se había quedado con cara de "no me vi venir eso" y en retrospectiva, lo debo haber avergonzado bastante en su momento.</p>
+<p>Mismo año, en una cena en un viaje laboral. "Dale, vos sabés el nombre de todos los gays de la oficina", dice uno de los chicos a la única chica del grupo. "¿Pero qué te pensás que te voy a decir los nombres?", responde ella, tratando de hacerle entender que lo que está queriendo saber no es algo que le concierna. "Son 3, ¿no?", insiste el chico. La chica lo ignora, y en un momento termina diciendo "bueno, ¿y quién más entonces?", y yo levanto la mano y digo "¡Hola!". La cara de "qué acaba de suceder" del chico es inolvidable. Era viernes a la noche, salimos a tomar algo y volvimos cada uno al hotel. A los pocos días, la misma chica me cuenta: "me volví en taxi con él, y me dijo que tenía miedo de subirse al mismo taxi que vos por miedo a que te le insinuaras".</p>
+<p>Un par de años más tarde, una compañera de trabajo se acerca en un descanso a pedirme consejos de moda. La miro y le digo "¿vos viste cómo estoy vestido?". Me mira de arriba a abajo y me dice "oh, pero qué decepción, se supone que vos tenés que saber de estas cosas, ¿y ahora qué hago?". Porque no todas son pálidas, no quiero dejar de comentar que esta chica es ahora una de mis amigas más cercanas y bromeamos seguido respecto a esta conversación. Pero sí voy a traer a reflexión la siguiente pregunta: ¿por qué se supone que yo tengo que saber de X o Y por ser quien soy?</p>
+<p>No le di mucha importancia a ninguna otra de las historias que podría contar en el momento en que ocurrieron. Llego a la conclusión de que probablemente no hubiera hecho nada distinto, porque mis preocupaciones y mi madurez eran otras en ese entonces. </p>
+<p>Las historias que elegí compartir no fueron elegidas al azar. Que hoy en día cuestiones como la diversidad y la inclusión estén en boca de todas las personas tampoco es casualidad. Hace algún tiempo, siento que no me puedo quedar sin hacer algo al respecto, así que por eso estamos acá.</p>
+<h2 id="hola">"Hola."</h2>
+<p><em>"Hola, soy Joel Alejandro Villarreal Bertoldi. Pueden decirme Joey. Nacido y criado en Córdoba, tengo 30 años y porque la vida y el universo así lo quisieron, soy un hombre cisgénero homosexual, fuera del clóset por ya poco más de 10 años. Uso los pronombres él/suyo. Me dedico al software desde que tengo 10 años (sí, 10 años). Trabajo como líder técnico en Mercado Libre, soy co-fundador de la Comunidad de Desarrolladores de Argentina e instructor en DoctaDevs, una escuela de programación en Córdoba. Escribo poesía. Intenté estudiar programación por las vías formales y fracasé, pero gracias a mi papá, aprendí las bases para luego formarme por mis propios medios. Mi rebeldía familiar fue estudiar diseño gráfico. Por un experimento caprichoso conmigo mismo, me volví vegetariano hace 2 años y medio."</em></p>
+<p>Me pregunto cuántas personas siguieron escuchándome o leyéndome mientras me presentaba después de haber dicho "hombre cisgénero homosexual" o "fuera del clóset". Ni hablemos del "uso los pronombres". ¿Qué es todo esto? ¿De dónde salió? ¿Por qué habría de importarle a alguien en un entorno laboral esta información? Yo mismo me hacía estas preguntas unos años atrás. "De esas cosas no hace falta hablar", me decía a mí mismo.</p>
+<p>Creo que en lo cotidiano se deja ver mucho cómo somos como personas y como cultura, y en particular eso se nota mucho en la forma en que trabajamos. En Latinoamérica, nuestra cultura laboral se basa en cultivar relaciones y conocernos para construir un vínculo de confianza. Dependemos de esa confianza para operar en equipo, y esto se construye en las pequeñas cosas, como por ejemplo, una charla mientras esperás en la oficina a que se haga el café o el tiempo de espera de una videollamada mientras se suman todas las personas que tienen que estar en una reunión.</p>
+<h2 id="qutaltufindesemana">"¿Qué tal tu fin de semana?"</h2>
+<p>Esta pregunta invita a conocer a la persona en un nivel más íntimo. Cuando dos personas comparten afinidad, eso se convierte en territorio común sobre el cual pueden construir y cimentar una relación, ya sea personal o profesional. Imaginemos que cualquiera de ustedes cuenta que estuvieron en casa con su esposa o esposo, leyendo algún libro o viendo alguna película juntos. No pasa nada, ¿no? ¿Qué tiene de raro eso? Es lo "normal". Ahora imaginemos que seguido de ese relato, yo, una persona a la que no conocen, cuento que con mi novio estuvimos viendo qué le podemos mejorar a nuestras compus. O incluso más, digo "mi novie". Con una mano en el corazón, ¿suena igual? ¿Pasa desapercibido mi comentario? Si es así para vos, te felicito, porque eso significa (a primera vista) que quizá sos una persona un poquito más inclusiva que el resto. Si no es el caso, <strong>no te asustes, no es tu culpa.</strong> Probablemente (y ojalá que sí) estés en el difícil camino de deconstruir algunos preconceptos y de reconocer tus privilegios. Y si no, mi relato quizá te haga reflexionar por un momento sobre cómo te desenvolvés como persona.</p>
+<p>Suelo decir que por mucho o poco que me haya dolido todo lo que me pasó respecto a lo que piensan los demás sobre mi homosexualidad, "la saqué barata": <strong>estoy vivo</strong>. Basta buscar un poco en Internet para ver que a alguna persona la mataron por ser quien era: se les llama <em>hate crimes</em> o <em>crímenes de odio</em>. Hay carátulas más específicas: femicidios, transicidios. Hay personas que se quitan la vida porque no pueden soportar el odio, el rechazo, la discriminación. Queremos creer que en pleno siglo 21, año 2020, estas cosas no pasan. Lamento tener que decirles que sí, sí pasan. Muchísimo. Además de estar vivo, soy una persona privilegiada por ser hombre, ser blanco, por adherir a cierto estándar de masculinidad que aparentemente permite que "no se me note" lo homosexual y por cumplir el estereotipo esperado de la industria en la que me desempeño: la industria de la tecnología. </p>
+<p>Recuerdo que una entrevistadora me dijo en su momento, meses luego de haber sido seleccionado para el trabajo: "caíste con los libros y esa camisa y ya me pareciste alguien interesante para contratar". La camisa en cuestión era una camisa estampada con flores, muy estilo gitano, muy colorida. Ese día llevaba el pelo largo, atado. El libro que había llevado trataba sobre arte y psicología, temas que me apasionan desde que empecé a estudiar diseño gráfico y mi ex pareja me había introducido al mundo de la psicología. Estaba sumamente nervioso, pero ojo, "que no se me note". Mantuve mi mejor cara de póker en toda la entrevista. En contrapartida, recuerdo mi primer día de trabajo en la administración pública, teniendo 20 años. La supervisora me dijo "¿pero qué hace este pendejo acá?". Me llevó casi un año que me tomaran en serio. No importaba cuánto supiera, era demasiado joven. Ese trabajo me enseñó una lección que mantuve por mucho tiempo: me ocupé de que mi trabajo profesional fuera impecable, que no pudieran usar nada de mi persona para negar mis argumentos. </p>
+<h2 id="peronosesuponequevos">"¿Pero no se supone que vos…?"</h2>
+<p>Nuestro cerebro recibe millones de piezas de información por segundo, de las cuales sólo podemos procesar conscientemente alrededor de 40. Nuestra interpretación del mundo se basa en conceptos agrupados por relaciones de proximidad, entonces asociamos, a nivel individual, a nivel grupal, a nivel social: azul para los nenes, rosa para las nenas; preferir un médico avanzado de edad a un médico joven; ver a una mujer trabajando en un hospital y asumir que es enfermera; hablar con una persona abiertamente homosexual y sorprenderse porque "no se le nota". ¿Pueden los prejuicios afectar al clima de trabajo, a nuestra productividad, a la sociedad? Veamos algunos ejemplos:</p>
+<ul>
+<li>Existe una brecha salarial de género, en la que los hombres ganan más dinero que las mujeres por igual tarea en la industria tecnológica (y en otras industrias también).</li>
+<li>Hay personas que piensan que la programación "es un trabajo de hombres y que a las mujeres no les interesa", cuando fueron mujeres las que hicieron los avances más significativos en la historia de la computación. </li>
+<li>El padre de la informática moderna, Alan Turing, se suicidó en 1952 tras ser condenado por las autoridades británicas por ser homosexual, para que en 2013, poco más de 60 años después, la corona inglesa le otorgue un indulto póstumo.</li>
+</ul>
+<p>Los prejuicios no son buenos ni malos por sí mismos. Es una forma de heurística natural. Lo que cuenta es qué hacemos con esa información. En una entrevista, los prejuicios pueden generarnos sesgos que impidan evaluar de manera objetiva a la persona. Ser conscientes de nuestros sesgos nos ayuda a ver a la persona de forma más auténtica y nos permite tomar decisiones más justas. He escuchado a un gerente decir que "si a mí me hubiese tocado entrevistarle, no le hubiese contratado", refiriéndose a un chico gay que había sido entrevistado por otra persona. Una persona con semejantes prejuicios no puede permanecer en una posición de semejante poder sin hacer cambios en su manera de pensar.</p>
+<p>Volvamos por un momento a los relatos de fin de semana. Hice uso de la palabra "normal", que viene de "norma": algo que adhiere a una convención arbitraria, establecida en nuestra sociedad, una regla implícita. Vivimos en una sociedad heteronormativa, donde la norma establece que las relaciones heterosexuales son la regla, y que cualquier cosa que se salga de eso no es "normal". A esto me refiero cuando digo que no es culpa de nadie en particular que pensemos así. Pero sí somos responsables de ser conscientes de lo que estos prejuicios significan, así como también somos responsables de decidir qué hacemos con esta información. Si actuamos como si nada sucediera, nos estamos perdiendo la oportunidad de aprender algo de quienes nos rodean, de entender una realidad distinta a la nuestra y por qué no, de crecer como personas.</p>
+<p>Supongamos que recibiste un correo electrónico de tu empleo, donde se te comenta una persona llamada Andrea se suma mañana a trabajar en tu equipo, y la persona responsable del grupo le da la bienvenida. No has visto ninguna foto de Andrea. ¿Cómo te imaginás a esa persona? ¿Es un hombre? ¿Es una mujer? Una de esas cosas que asumimos casi automáticamente y sin pensar es el género. El año pasado, salió una serie de Star Trek llamada Discovery, y quien protagonizaba era una persona llamada Michael Burnham: una mujer que había heredado el nombre de su padre, y que eligió usar un nombre masculino, por más que se identificara como mujer. </p>
+<p>Aquí es necesario hacer un par de distinciones: <strong>sexo</strong> y <strong>género</strong> son dos conceptos separados. Uno es biológico, el otro es un rasgo de identidad. El género, en particular, admite una extensa variedad de identidades, mucho más allá de la tradicional perspectiva binaria masculina-femenina. A partir de estos principios, se explica la necesidad de usar un lenguaje inclusivo, y de ahí surgen expresiones como "chiques", "chicxs", "chic@s". Hay muchas maneras de manejar la inclusividad en el lenguaje, tanto usando la "e", la "x" o la "@", o bien prefiriendo un discurso neutro de género.</p>
+<h2 id="notevasaofenderporesapavada">"No te vas a ofender por esa pavada."</h2>
+<p>Así como procesamos muchísima información de manera inconsciente, sucede que cuando hablamos, a veces las palabras van más rápido que nuestra consciencia. Decimos cosas sin pensar. Mucho. Todas las personas hacemos esto. Y como comenté recién, asumimos, porque así funciona la mente humana. Decimos cosas sin pensar y terminamos hiriendo a otra persona, y en vez de pedir disculpas, nos justificamos. </p>
+<p>El lenguaje está plagado de términos peyorativos que introducimos en frases cotidianas sin necesidad alguna. En Twitter, hace poco, fue tendencia nacional la frase "No seas trolo", y cuando quise comentar al respecto, la mayoría de las personas que me escribieron decía algo así como "no te ofendas, es algo que se dice" o "mirá los tweets, que no hay comentarios homofóbicos". <strong>Bueno, que me disculpe la mayoría de las personas, pero eso no es una justificación.</strong> Que esté aceptado popularmente que "no seas trolo" no sea un comentario peyorativo no significa que no lo sea. </p>
+<p>He escuchado a personas enojadas decir "qué puto" estando yo presente, y mis respuestas varían en dos ejes: en el ámbito informal, respondo "a mucha honra" o "con orgullo"; en el ámbito laboral, inmediatamente le marco a la persona que no hay necesidad de decir eso así. A veces me contestan con "pero ya sabés que no lo digo por vos, no te vas a ofender por esa pavada". No es ese el punto: el punto es quebrar el estigma que genera el uso del lenguaje en este contexto.</p>
+<p>Es importante que hagamos tomar consciencia a quienes incurren en el uso de estos términos, porque pueden estar lastimando y ejerciendo violencia hacia otra persona sin saberlo, y esa persona quizá no pueda defenderse. Hay distintas herramientas para hacer esto, pero la más fácil es hablarlo, enfocándose en el comportamiento y no en la persona que lo realiza. No sirve andar repartiendo culpas; es mucho más valioso construir nuevos hábitos ayudando a que la otra persona entienda. Que no sea nuestro primer pensamiento que hay mala intención del otro lado: la gran mayoría de las veces es inconsciencia pura. Remarco por esto el punto de enfocarnos en los comportamientos que queremos cambiar, y no en las persona que los realiza.</p>
+<p>Esto asume que del otro lado hay una capacidad de empatía, pero si eso no está, la fuerza está en los números. Pedir ayuda y apoyo a otras personas para modificar este hábito puede ser una buena alternativa para estos casos. Es como dice el refrán: quien calla, otorga. Si sabemos que algo está pasando y no hacemos nada al respecto, estamos habilitando o reforzando un comportamiento pernicioso. Saber y no actuar nos hace cómplices. Tenemos que ser capaces de romper ese ciclo.</p>
+<h2 id="perdngracias">"Perdón… gracias."</h2>
+<p>Muchas veces, vamos a tener éxito y vamos a poder cambiar nuestra realidad y la de otras personas. A veces recibiremos una disculpa, otras veces, no. Que nada de esto nos desaliente. Pasamos muchas horas en el trabajo y merecemos que se nos trate con respeto y dignidad, como a cualquier ser humano.</p>
+<p>Esta es la nota más difícil que he escrito en este blog, y probablemente permanezca en ese pedestal un buen tiempo. Nunca hablé de mi homosexualidad tan abiertamente como lo estoy haciendo ahora. Como le decía a un amigo, me hubiese gustado haberlo hecho antes. Pero creo que las cosas suceden por una razón, y que todo condujo a que esta madrugada del 24 de junio de 2020, me sintiese listo para hablar.</p>
+<p>Y para decir esto también, a vos que estás leyendo: si mis historias resuenan con vos y alguna vez te sentiste como me sentí yo, si estás luchando con un ambiente de trabajo tóxico o creés que no podés ser tu versión más auténtica de vos mismo, <strong>quiero que sepas que podés contar conmigo y que tenés mi apoyo</strong>. Tanto los comentarios de este blog como mis mensajes directos en Twitter y LinkedIn están abiertos para el diálogo. </p>
+<p>Gracias por leerme.</p>]]></description><link>https:/joey.works/mira-vos-no-se-te-nota/</link><guid isPermaLink="false">https:/joey.works/mira-vos-no-se-te-nota/</guid><category><![CDATA[diversidad]]></category><category><![CDATA[industria]]></category><category><![CDATA[reflexiones]]></category><category><![CDATA[liderazgo]]></category><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Wed, 24 Jun 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Todo empezó con una condesa: una historia de la programación]]></title><description><![CDATA[<p><em>Este artículo sirvió como las bases de una charla que dí sobre introducción a la programación en el primer Bootcamp Web de <a href="https://metcba.org">Mujeres en Tecnología Córdoba</a>, desarrollado en 2019.</em></p>
+<p>Hace poco más de 175 años, poco menos de dos siglos, en la Londres de la era Victoriana, Augusta Ada King, más conocida como <a href="https://es.wikipedia.org/wiki/Ada_Lovelace">Ada Lovelace</a>, intercambiaba correspondencias con <a href="https://es.wikipedia.org/wiki/Charles_Babbage">Charles Babbage</a> durante el desarrollo de un sistema de máquinas llamado <strong>Analytical Engine</strong> (que en español, sería algo asi como la "<a href="https://es.wikipedia.org/wiki/M%C3%A1quina_anal%C3%ADtica">Máquina analítica</a>").</p>
+<p>Este sistema de máquinas era el sucesor de un primer modelo llamado <strong>Difference Engine</strong> ("la <a href="https://es.wikipedia.org/wiki/M%C3%A1quina_diferencial">Máquina diferencial</a>"), que serviría para resolver funciones polinómicas.</p>
+<p>Ninguna de estas máquinas llego a construirse hasta casi un siglo después, porque la corona británica retiró su apoyo al proyecto.</p>
+<p>Sin embargo, Ada escribió paginas y páginas en una publicación inocentemente llamada <strong>Notes</strong> ("Notas"), explicando su interpretación del funcionamiento de esta maquinaria. Y en estas notas, fue la primera en teorizar que se podían computar no sólo cálculos, sino algoritmos de cualquier tipo. Fue ella, justamente, la primera en escribir estos programas, en una época donde las tarjetas perforadas eran el avance científico-computacional del momento (alrededor de 1832).</p>
+<p>Las cartas muestran discusiones al desnudo entre Ada y Charles, generalmente en el tono de "ella explicándole a Charles y exigiéndole la misma atención al detalle que ella poseía".</p>
+<p>Casi dos siglos han pasado, y la <em>Encantadora de los Números</em> (un apodo que Babbage acuñó para Lovelace) tuvo razón en muchas de sus predicciones.</p>
+<p>En una de sus notas, escribe:</p>
+<blockquote>
+  <p>"Esta maquinaria podría actuar sobre otras cosas además de números, si hubiese objetos cuyas relaciones fundamentales pudieran ser expresadas por la ciencia abstracta de las operaciones"</p>
+</blockquote>
+<p>Pensemos en esto por un momento. ¿Qué cosas podemos hacer con un libro? Abrirlo. Cerrarlo. Guardarlo en un estante. Buscar una pagína en particular. Leerlo. Todas estas acciones son semejantes a las cosas que podemos hacer con un número: sumarlo, restarlo, multiplicarlo.</p>
+<p>Esto nos permite establecer el siguiente enunciado:</p>
+<blockquote>
+  <p>"Toda realidad es representable"</p>
+</blockquote>
+<p>Esta oración representa uno de los principios de la programación, area en la que Ada Lovelace es considerada por muchos una pionera.</p>
+<p>Tenemos ya entonces, varias preguntas, pero la más grande y urgente sería: <strong>¿qué es la programación?</strong></p>
+<h2 id="queslaprogramacin">¿Qué es la programación?</h2>
+<p>Hay múltiples maneras de abordar una definición sobre qué es la programación.</p>
+<ul>
+<li>Desde la <strong>música</strong>, podemos entender la programación como la orquestación de diversos instrumentos en una serie de patrones que cumplen una función específica en la armonía musical.</li>
+<li>Desde el <strong>cine</strong> o el <strong>teatro</strong>, la dirección e interpretación de un guión, llevada adelante con un grupo de actores relacionados, cada uno con su propósito.</li>
+<li>Desde la <strong>gastronomía</strong>, como la preparación par ala receta de una comida, un cóctel o un café.</li>
+</ul>
+<p>¿Qué tienen en común todas estas actividades? <strong>Todas involucran una serie de pasos a ejecutar, con un propósito determinado en un contexto particular.</strong></p>
+<p>Esta serie de pasos a ejecutar es comúnmente conocido con el nombre de <strong>programa</strong>. También se lo conoce como rutina, script, secuencia de comandos. A su vez, cada uno de estos pasos puede llamarse, entre otras formas, <strong>instrucción</strong>.</p>
+<h2 id="nbspparaqusirveprogramar">&nbsp;¿Para qué sirve programar?</h2>
+<p>Dado que todo programa está diseñado para satisfacer una necesidad en particular o realizar una tarea específica, podemos asumir que programar es una forma de <strong>automatizar</strong> ciertas acciones que se vuelven rutinarias; es una manera de resolver problemas. Veamos algunos ejemplos de actualidad:</p>
+<ul>
+<li><strong>Necesitamos formas de comunicarnos en tiempo real.</strong> WhatsApp, Messenger, Telegram y cuanta red social o aplicación de mensajería exista son ejemplos de programas.</li>
+<li><strong>Necesitamos recordar números de teléfono.</strong> Prácticamente no existe teléfono que no incluya un programa (o aplicación) de "Agenda" o "Contactos".</li>
+</ul>
+<p>Existen programas de variados tamaños o complejidades, desde una calculadora hasta la navegación de un transbordador especial, pasando por Candy Crush.</p>
+<p>Aprender sobre esta actividad nos empodera a transformar la realidad desde un ejercicio mental que combina lo creativo con lo lógico. Es como armar rompecabezas, donde las piezas que tratamos de encajar son bloqueos de código que, integrados, conforman un programa.</p>
+<h2 id="todoesunprograma">¿Todo es un programa?</h2>
+<p>En un sentido, sí. Y las páginas web, por ejemplo, no son la excepción. Hoy por hoy, en la era de la hipercomunicación, Argentina lidera en el continente en materia de penetración de Internet, donde 9 de cada 10 personas está conectada a la red de redes. Es común hablar de búsquedas en Google, subir fotos a Instagram, participar en acaloradas discusiones en Twitter, por mencionar algunos ejemplos.</p>
+<p>Todas estas actividades son llevadas a cabo a través de programas que interactúan con otros programas. El navegador es un programa; los resultados de una bíusqueda son la respuesta de otro programa. <strong>Un sitio web, entonces, es un programa o conjunto de programas.</strong></p>
+<h2 id="cualquierapuedeprogramar">¿Cualquiera puede programar?</h2>
+<p>Esta es una pregunta que se ha respondido muchísimas veces en la historia de la computación.</p>
+<p>Podría enumerar cada uno de los casos, pero es mejor ir a la respuesta: <strong>¡sí!</strong> Cualquiera puede programar, con el debido entrenamiento y práctica.</p>
+<p>Como con cualquier otra habilidad, hay personas a las que puede resultarle más fácil o más difícil. Es importante remarcar algo en este punto: <strong>todas las personas aprendemos de distintas maneras</strong>. </p>
+<p>Si te considerás una persona analítica, probablemente te guste resolver problemas siguiendo un método ordenado y lógico, descomponiéndolo en partes más pequeñas y simples. Por otra parte, si sos una persona intuitiva, vas a intentar encontrar respuestas a través de procesos más exploratorios, probando por ensayo y error, buscando soluciones alternativas.</p>
+<p>Todo depende de los procesos cognitivos y de la manera que percibís e interactuás con el mundo. <strong>Ninguna forma es mejor que otra.</strong> Es más, los resultados más interesantes surgen de confiar en diversas metodologías de pensamiento.</p>
+<p>Un mito muy común es que si no sabés matemática, no podés programar. <strong>Esto es falso.</strong> Ciertamente puede ser una herramienta útil, pero es sólo eso: una herramienta. Ayuda porque es una forma de ejercitar el pensamiento lógico-abstracto, pero sin duda no es la única.</p>
+<p>Por esto, no te frustres si algo no sale a la primera. Aprender a programar es como aprender un idioma: ¡hay que practicar, practicar y practicar! Y, si lo hacés en buena compañía, ¡es más divertido!</p>]]></description><link>https:/joey.works/todo-empezo-con-una-condesa-una-historia-de-la-programacion/</link><guid isPermaLink="false">https:/joey.works/todo-empezo-con-una-condesa-una-historia-de-la-programacion/</guid><category><![CDATA[programación]]></category><category><![CDATA[mujeres en tecnología]]></category><category><![CDATA[historia]]></category><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Mon, 13 Apr 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[No title]]></title><description><![CDATA[<p>Todo está en los dados. Lo mágico, lo suficiente y lo desastroso, esperando a revelarse en el acto azaroso de una tirada de dados.</p>
+<p>Parecería que estoy hablando de apuestas, y si te soy sincero, no estarías tan fuera de tema. Después de todo, en cierta manera, vivir es apostar a las decisiones que tomamos en cada paso que damos.</p>
+<p>¿Qué sucede si pensamos que la vida es un juego y todo está sujeto a reglas y dados?</p>
+<p>Sucede Dungeons &amp; Dragons… y cualquier lenguaje de programación que quieras imaginarte.</p>
+<p>La metáfora puede sonar un poco forzada al comienzo, pero paciencia, creo que vamos a llegar al mismo puerto luego de que termine de contarte esta historia. O tal vez no lleguemos a ningún lado, pero al menos el viaje va a ser divertido.</p>
+<p>Quiero contarles la leyenda de un mítico grupo de personas aventureras, que hace mucho, mucho tiempo, tras un largo viaje, decidieron hacer una breve pausa en el primer asentamiento que encontraran. Así, Constancio, Letiana, Variel y Funcio llegaron un día a Ciudad Segunda, conocida por viajantes por darle siempre una segunda mirada a las cosas que allí se construían.</p>
+<p>Un poco más allá de la plaza central, ven un cartel: "Posada de La Refactoría". Se acercan al posadero y le dicen:</p>
+<p>"Señálenos dónde está la aventura".</p>
+<p>El posadero, inmutable, con su mejor cara de… bueno, de posadero, les señala 4 mesas.</p>
+<p>"Hablen con quienes saben".</p>
+<p>Constancio</p>
+<p>Fah Ctory, Sing L. Eton, Chai Nofres Ponsi Bility (Chain para quienes le querían mucho) y Strat Egy, llegaron un día a Ciudad Segunda, conocida por viajantes por darle siempre una segunda mirada a las cosas que allí se construían.</p>]]></description><link>https:/joey.works/title/</link><guid isPermaLink="false">https:/joey.works/title/</guid></item><item><title><![CDATA[Software, egos y paradojas]]></title><description><![CDATA[<p>_X es un lenguaje de programación. X no es un lenguaje de programación. La única _
+_forma de hacer A es B; C, D y E son soluciones "de cuarta". De una persona de tu _
+<em>seniority, esperaba más.</em></p>
+<p>¿En qué momento la industria del software se convirtió en una competencia de egos,
+tan alienante que tiene la capacidad de 
+<a href="/estoy-en-el-lugar-correcto">destruir la seguridad en sí mismas</a> de personas
+que se rehusan a tomar parte en un juego tan perverso?</p>
+<p>Una de las profesiones que más nos empodera desde la creación pareciera pecar
+de un conservadurismo que atenta contra la diversidad y el cuestionar, y de
+un elitismo tal que pobre de la persona que no conozca o adhiera a determinado
+concepto.</p>
+<p>¿Cómo es posible que una industria como la nuestra sea tan cambiante y, paradójicamente,
+tan reacia a aceptar lo diferente, lo nuevo?</p>
+<p>El concepto de <em>gatekeeper</em> (o como cierta revista de computación tuvo el infortunio de
+traducir en 1994, "líderes de opinión") parece persistir aún en nuestros días,
+y lo vemos reflejado en todo tipo de discusiones en la industria tecnológica.</p>
+<p>Recientemente en Twitter, me crucé con este meme:</p>
+<p><center>
+    <video loop autoplay src="https://video.twimg.com/tweet_video/EXqXyVmWAAEiSMo.mp4" />
+</center>
+<br></p>
+<p>En el video, se ve el texto <em>"When a senior developer comes to solve the problem"</em>
+("Cuando el desarrollador senior viene a resolver el problema"). El desarrollador
+senior está representado por un súperarchimegacamión que se lleva por delante una
+doble fila de autos: lo que vendría a ser el "problema" (¿o quizás la gente con la
+que trabaja? Ya vuelvo a esto).</p>
+<p>Es notable que en unos segundos de imágenes se deja entrever un rasgo muy arraigado
+en la industria: el fomento del individualismo, la mitificación de ciertos héroes,
+y la promoción de estas actitudes como "lo que se necesita" o "lo que se espera".
+Casi como el personalismo que domina a la política en Argentina-- no, alto. Acá
+no quiero hablar de un tema tan complicado, pero no pude evitar pensar en el parecido
+(en este punto en particular).</p>
+<p>Esto ya había tenido presencia en Internet recientemente, bajo el nefasto nombre del
+<a href="https://twitter.com/skirani/status/1149302828420067328">10x engineer</a>, luego de
+títulos de "rockstar", "ninja", el mal usado "hacker", el robado del reporte "crack"
+o su versión de la NBA, "all-star"… y la lista sigue.</p>
+<p>Naturalmente, Twitter no tardó en hacer de esto un meme, porque… bueno, es Twitter,
+¿no? Un <a href="https://twitter.com/cassidoo/status/1150170262228201472">posteo de Cassidy Williams</a>
+resume el modelo mental de estos personajes (es una parodia, pero como toda parodia,
+con su buena cuota de verdad), con frases como:</p>
+<blockquote>
+  <ul>
+  <li><em>Todo lo que dijeron en esta reunión es obvio y todos ustedes, obviamente, son</em>
+  <em>más inseguros que yo.</em></li>
+  <li><em>No puedo mentorear a otras personas porque siempre seré mejor.</em></li>
+  <li><em>Las habilidades de comunicación son para personas que no tienen la razón.</em></li>
+  </ul>
+</blockquote>
+<p><em><strong>Nota:</strong> El uso del género masculino en esta traducción es deliberado y hace al</em>
+<em>punto que estoy discutiendo en el artículo.</em></p>
+<p>¿Por qué este culto estúpido e insensato hacia el individuo? Esta <strong>repleto</strong> de
+buenas prácticas en torno al trabajo en equipo, a la actividad colaborativa,
+al intercambio de ideas, y sin embargo, acá estamos, en una de las industrias más
+creativas e innovadoras del mundo, donde todos los años no se alcanza a cubrir
+la cantidad de puestos en IT necesarios para todo el trabajo que hay para hacer,
+y hay empresas que van en contra de la diversidad, culturas corporativas ultraconservadoras
+que fomentan la competencia entre pares como principal motivador y un estilo de liderazgo
+autoritario que castiga el cuestionamiento y recompensa la obediencia ciega.</p>
+<p>¿Cómo es posible que habiendo lugar y oportunidad para cualquiera que se quiera sumar
+a este espacio, seamos tan ignorantes de creer que el conservadurismo es la respuesta?
+¿Tanto miedo le tenemos a lo distinto? Y por distinto me refiero a todo aquello que no
+coincida con el ego de la persona (generalmente un hombre, <em>qué sorpresa</em>), elevada
+al status de "leyenda" en estos equipos.</p>
+<p>No hace falta entender física cuántica para entender que equipos más diversos generan
+mejores procesos de ideación, precisamente porque sus integrantes tienen distintos perfiles,
+historias y formas de pensar. Pero parece que en ciertos círculos de la industria, el mensaje
+todavía no llegó, y así tenemos la brecha de género y la marginalización de las personas
+trans. ¿Y por qué? Porque escuchamos a estos ídolos que marcan el norte de la industria
+y colectivamente no se los interpela, no se los cuestiona.</p>
+<p>Estuve de los dos lados de la moneda: soportando dinosaurios y viendo equipos que
+prosperan gracias a su diversidad, empuje colaborativo y pensamiento creativo.</p>
+<p><em>Ya sabemos lo que le sucedió a los dinosaurios, ¿no?</em></p>
+<p>Si estás leyendo esta nota y tenés la responsabilidad de coordinar un equipo,
+no pretendo darte la receta que lo resuelve todo porque no la tengo, pero
+al menos invitarte a reflexionar sobre si el camino que estás tomando es el mejor.</p>
+<p>Hay espacio para progresar en conjunto. No hace falta andar pisando cabezas
+ni humillando a colegas por no saber X o Y. Nada de eso debiera importar.
+Nadie sabe todo ni tiene por qué saberlo todo.</p>
+<p>Creo que la invitación es clara: seamos más consistentes como inudstria. Si somos
+sinónimo de progreso e innovación, pensar como la Santa Inquisición en el medioevo
+no puede ser la respuesta.</p>
+<p><small><font color="teal">Editado el 10/05/2020 a las 23:36 hs.: Un comentario anónimo me incentivó a rechequar
+la neutralidad de genéro del artículo. Se agregó una aclaración en la traducción
+de una parodia para indicar que se trata de un uso deliberado del lenguaje
+no inclusivo.</font></small></p>]]></description><link>https:/joey.works/software-egos-y-paradojas/</link><guid isPermaLink="false">https:/joey.works/software-egos-y-paradojas/</guid><category><![CDATA[industria]]></category><category><![CDATA[reflexiones]]></category><category><![CDATA[liderazgo]]></category><category><![CDATA[diversidad]]></category><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Sun, 10 May 2020 00:00:00 GMT</pubDate></item><item><title><![CDATA[Machetes de JavaScript]]></title><description><![CDATA[<p>¿Cómo se usaba <code>Array.find()</code>? ¿<code>substr</code> arrancaba con índice 0 ó 1? Les comparto un <em>machete</em> 
+(argentinismo que quiere decir "apunte") con ejemplos de uso de las funcionalidades elementales
+de JavaScript.</p>
+<p>No cubre absolutamente todos los casos y todo lo que JavaScript permite hacer hoy en día,
+pero es un buen punto de partida.</p>
+<p><em>Gracias a las personas que conforman la W1 del Bootcamp de Frontend de MELI, que me</em>
+<em>hicieron redescubrir el valor de compartir estas cosas que a veces uno mismo subestima.</em></p>
+<h2 id="fundamentos">Fundamentos</h2>
+<h3 id="variablesyconstantes">Variables y constantes</h3>
+<pre><code class="jsx language-jsx">// -----------------------------------------------------------------------
+// Variables:
+// Su valor puede ser reasignado.
+// -----------------------------------------------------------------------
+let variable = 4;
+variable = 5;
+
+// -----------------------------------------------------------------------
+// Constantes:
+// Su valor puede ser definido una sola vez.
+// -----------------------------------------------------------------------
+const constante = 10;
+</code></pre>
+<h3 id="tiposdedatos">Tipos de datos</h3>
+<pre><code class="jsx language-jsx">// -----------------------------------------------------------------------
+// Tipos de datos
+// -----------------------------------------------------------------------
+const texto = 'abc'; // También se puede usar comilla doble: "abc"
+const numero = 123;
+const booleano = true;
+const fecha = new Date();
+const lista = [1, 2, 3];
+const persona = { 
+  nombre: 'Amanda',
+  apellido: 'Gris',
+  curso: 'JavaScript'
+};
+</code></pre>
+<h3 id="operadoresaritmticos">Operadores aritméticos</h3>
+<pre><code class="jsx language-jsx">// -----------------------------------------------------------------------
+// Operadores aritméticos
+// -----------------------------------------------------------------------
+const x = 1;
+const y = 2;
+const suma = x + y;
+const resta = x - y;
+const multiplicacion = x * y;
+const division = x / y;
+const concatenacion = texto + texto;
+const resto = x % y;
+</code></pre>
+<h3 id="operadoresyvaloreslgicos">Operadores y valores lógicos</h3>
+<pre><code class="jsx language-jsx">// -----------------------------------------------------------------------
+// Valores lógicos
+// -----------------------------------------------------------------------
+const verdadero = true;
+const falso = false;
+
+// -----------------------------------------------------------------------
+// Operadores lógicos
+// -----------------------------------------------------------------------
+const conjuncion = verdadero &amp;&amp; verdadero; // Y
+const disyuncion = verdadero || falso; // O
+const negacion = !verdadero; // NO
+</code></pre>
+<h3 id="operadoresdecomparacin">Operadores de comparación</h3>
+<pre><code class="jsx language-jsx">// -----------------------------------------------------------------------
+// Operadores de comparación
+// -----------------------------------------------------------------------
+
+  ==    igualdad no estricta
+  ===   igualdad estricta
+  &gt;     mayor
+  &gt;=    mayor o igual
+  &lt;     menor
+  &lt;=    menor o igual
+  !=    desigualdad no estricta
+  !==   desigualdad estricta
+</code></pre>
+<h2 id="estructurasdecontrol">Estructuras de control</h2>
+<h3 id="iteradores">Iteradores</h3>
+<pre><code class="jsx language-jsx">// Ejecutar X veces un bloque de código, con un contador ascendente.
+
+    //|- Punto de inicio              //|- Por cuánto aumenta o reduce
+    //|                               //|  el contador del iterador.
+for (let contador = 0; contador &lt; 10; contador += 1) {
+                       //|
+                       //|- Condición para que el código se ejecute.
+  // Este código se repetirá 10 veces.
+}
+
+// Ejecutar X veces un bloque de código, con un contador descendente.
+for (let contador = 10; contador &gt; 0; contador -= 1) {
+  // Este código se repetirá 10 veces.
+}
+</code></pre>
+<h3 id="condicionales">Condicionales</h3>
+<pre><code class="jsx language-jsx">if (condicionQueDevuelveVerdadero) {
+  // Código que se ejecuta cuando la condición es verdadera.
+} else {
+  // Código que se ejecuta cuando la condición es falsa.
+}
+
+// -----------------------------------------------------------------------
+// Condicionales de más de un caso
+// -----------------------------------------------------------------------
+if (condicion1) {
+  // Código que se ejecuta cuando la condición 1 se cumple.
+} else if (condicion2) {
+  // Código que se ejecuta cuando la condición 2 se cumple,
+  // pero la condición 1 no se cumple.
+} else {
+  // Código que se ejecuta cuando no se cumple ninguna de las
+  // otras condiciones.
+}
+</code></pre>
+<h3 id="controldeerrores">Control de errores</h3>
+<pre><code class="jsx language-jsx">// Arrojar un error.
+if (argumento === undefined || argumento === null) {
+  throw new Error("El argumento es requerido");
+}
+
+// Controlar un error.
+try {
+  // Código que hace algo mal en algunos casos.
+} catch (e) {
+    // "e" contiene un objeto con información sobre el error.
+    console.log(e);
+}
+</code></pre>
+<h2 id="libreradefunciones">Librería de funciones</h2>
+<h3 id="funcionesmatemticas">Funciones matemáticas</h3>
+<pre><code class="jsx language-jsx">const esNumero = !isNaN(10);
+const noEsNumero = isNaN("Hola");
+const valorAbsoluto = Math.abs(-4); // 4
+const redondeoHaciaArriba = Math.ceil(18.9); // 19
+const redondeoHaciaAbajo = Math.floor(18.4); // 18
+const redondeoAutomatico = Math.round(18.4); // 18
+const maximo = Math.max(10, 20); // 20
+const minimo = Math.min(10, 20); // 10
+const potencia = Math.pow(10, 2); // 100
+const numeroAleatorio = Math.random(); // Número al azar entre 0 y 1
+const numeroAleatorioEntero = Math.floor(Math.random() * numeroMaximo) + 1;
+</code></pre>
+<h3 id="funcionesdetexto">Funciones de texto</h3>
+<pre><code class="jsx language-jsx">const texto = 'Soy un texto';
+const textoEnMayus = texto.toUpperCase(); // =&gt; 'SOY UN TEXTO'
+const textoEnMinus = texto.toLowerCase(); // =&gt; 'soy un texto'
+const longitudDeTexto = texto.length; // 12
+const textoContieneTexto = texto.includes('texto'); // true
+const textoDivididoPorEspacios = texto.split(' '); // ['Soy', 'un', 'texto']
+const primerosCincoCaracteres = texto.substr(0, 5); // 'Soy u'
+
+const codigoDeBarras = '51234';
+const conCerosALaIzquierda = codigoDeBarras.padStart(10, '0'); // '0000051234'
+const conCerosALaDerecha = codigoDeBarras.padEnd(10, '0'); // '5123400000'
+</code></pre>
+<h3 id="funcionesdefecha">Funciones de fecha</h3>
+<pre><code class="jsx language-jsx">const fecha = new Date();
+const diaDelMes = fecha.getDate(); // 25
+const numeroDeMes = fecha.getMonth() + 1; // 3 (los meses van de 0 a 11, por eso +1)
+const año = fecha.getFullYear(); // 2021
+const hora = fecha.getHours(); // 20
+const minutos = fecha.getMinutes(); // 5
+const segundos = fecha.getSeconds(); // 35
+const fechaJSON = fecha.toJSON(); // '2021-03-25T20:05:35.000Z'
+</code></pre>
+<h2 id="listas">Listas</h2>
+<h3 id="declaracindelistas">Declaración de listas</h3>
+<pre><code class="jsx language-jsx">const listaDeFrutas = ["🍌", "🍅", "🍓"];
+const listaDeNumeros = [1, 2, 3, 4, 5, 6, 7, 8];
+const listaDePalabras = ["uno", "dos", "tres"];
+const listasDeListas = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+const listaDeVariasCosas = [1, "dos", [1, 2, 3]];
+</code></pre>
+<h3 id="longitudyaccesoporndice">Longitud y acceso por índice</h3>
+<pre><code class="jsx language-jsx">const longitudDeLista = listaDeFrutas.length;
+const primerElementoDeLaLista = listaDeFrutas[0];
+const segundoElementoDeLaLista = listaDeFrutas[1];
+const ultimoElementoDeLaLista = listaDeFrutas[listaDeFrutas.length - 1];
+</code></pre>
+<h3 id="agregarsustituiryeliminarelementos">Agregar, sustituir y eliminar elementos</h3>
+<pre><code class="jsx language-jsx">// Agregar elementos al final de una lista
+listaDeFrutas.push("🍎");
+
+// Modificar elementos de una lista
+listaDeFrutas[2] = "🍇";
+
+// Eliminar elementos de una lista por su posición.
+listaDeFrutas.splice(2, 1);
+
+// Agregar elementos al comienzo de una lista.
+listaDeFrutas.unshift("🥝");
+</code></pre>
+<h2 id="manipulacindelistas">Manipulación de listas</h2>
+<pre><code class="jsx language-jsx">// Obtener un segmento de una lista.
+const algunosNumeros = listaDeNumeros.slice(1, 4);
+
+// Combinar listas por concatenación.
+const listaDeCarnes = ["🍖", "🍗", "🥓"];
+const listaDeVerduras = ["🍠", "🥬", "🧅"];
+const ingredientes = listaDeCarnes.concat(listaDeVerduras);
+
+// Crear una lista nueva a partir de la distribución
+// de elementos de otras listas (spreading)
+const salteado = [...listaDeCarnes, ...listaDeVerduras];
+
+// Invertir el orden de una lista.
+const verdurasAlRevés = listaDeVerduras.reverse(); // ["🧅", "🥬", "🍠"];
+
+// Obtener el último elemento de una lista y eliminarlo de la misma.
+const verduraQueSacoDelFinalDeLaLista = listaDeVerduras.pop(); // "🧅"
+
+// Obtener el primer elemento de una lista y eliminarlo de la misma.
+const carneQueSacoDelComienzoDeLaLista = listaDeVerduras.shift(); // "🍖"
+</code></pre>
+<h3 id="bsquedadeelementos">Búsqueda de elementos</h3>
+<pre><code class="jsx language-jsx">// Chequear si un elemento existe en una lista.
+const tengoFrutillas = listaDeFrutas.includes("🍓"); // true o false
+
+// Buscar la posición de un elemento en una lista.
+const posicionCebolla = listaDeVerduras.indexOf("🧅");
+
+// Filtrar elementos en una lista.
+const listaDePares = listaDeNumeros.filter(
+  function (numero) {
+    if (numero % 2 === 0) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+); // [2, 4, 6, 8]
+
+// En una linea:
+const listaDePares = listaDeNumeros.filter(numero =&gt; numero % 2 === 0);
+
+// Eliminar elementos usando filtros
+const listaConCosasAEliminar = [3, 1, 7, 0, 2, 4, 8, 9];
+const listaSin4PorFiltros = listaConCosasAEliminar.filter(function (numero) {
+  if (numero !== 4) {
+    return true;
+  }
+}); // o bien: listaConCosasAEliminar.filter(numero =&gt; numero !== 4);
+
+// Eliminar elementos usando búsqueda de posición y segmentación
+const posicionDel4 = listaConCosasAEliminar.indexOf(4);
+const primerSegmento = listaConCosasAEliminar.slice(0, posicionDel4);
+const segundoSegmento = listaConCosasAEliminar.slice(posicionDel4 + 1);
+const listaSin4PorSegmentos = primerSegmento.concat(segundoSegmento);
+
+// Buscar la primera ocurrencia de un elemento en una lista
+const primerNumeroPar = listaDeNumeros.find(function (numero) {
+  if (numero % 2 === 0) {
+    return true;
+  }
+}); // o bien: listaDeNumeros.find(numero =&gt; numero % 2 === 0);
+</code></pre>
+<h3 id="operacioneslgicasconlistas">Operaciones lógicas con listas</h3>
+<pre><code class="jsx language-jsx">// Verificar si todos los elementos cumplen una condición dada.
+const todosSonPares = [1, 2, 3, 4].every(numero =&gt; numero % 2 === 0); // false
+
+// Verificar si algunos de los elementos cumplen una condición dada.
+const algunosSonPares = [1, 2, 3, 4].some(numero =&gt; numero % 2 === 0); // true
+</code></pre>
+<h3 id="transformacindelistas">Transformación de listas</h3>
+<pre><code class="jsx language-jsx">// Multiplicar todos los números de una lista por un factor.
+const dobles = [1, 2, 3, 4].map(numero =&gt; numero * 2); // [2, 4, 6, 8]
+
+// Convertir todos los números en letras.
+// [4, 2, 1, 0] =&gt; ['cuatro', 'dos', 'uno', 'cero']
+const nombresDeNumeros = ['cero', 'uno', 'dos', 'tres', 'cuatro'];
+const listaDeNumeros = [4, 2, 1, 0];
+const numerosComoLetras = listaDeNumeros.map(numero =&gt; nombresDeNumeros[numero + 1]);
+</code></pre>
+<h3 id="reduccindelistas">Reducción de listas</h3>
+<pre><code class="jsx language-jsx">// Obtener la suma de todos los números de una lista.
+const listaDeNumeros = [1, 2, 3, 4];
+const suma = listaDeNumeros.reduce((acumulado, numero) =&gt; acumulado + numero); // 10
+</code></pre>
+<h2 id="modelodeobjetodedocumentodom">Modelo de objeto de documento (DOM)</h2>
+<h3 id="accesoaelementos">Acceso a elementos</h3>
+<pre><code class="jsx language-jsx">// Buscar un elemento por su ID.
+const elementoPorID = document.querySelector('#elemento');
+
+// Buscar un elemento por su clase.
+const elementoPorClase = document.querySelector('.elemento');
+
+// Buscar un elemento por cualquier selector CSS:
+// En este caso, el primer campo de texto de la página.
+const elementoPorCSS = document.querySelector('input[type="text"]');
+
+// Buscar todos los elementos que coincidan con el selector CSS.
+// En este caso, todos los campos de texto de la página.
+const elementosPorCSS = document.querySelectorAll('input[type="text"]');
+</code></pre>
+<h3 id="asignacindeeventos">Asignación de eventos</h3>
+<pre><code class="jsx language-jsx">// Agregar un evento "click" a un botón
+const boton = document.querySelector('#boton');
+
+boton.addEventListener('click', () =&gt; {
+  // Cuando se haga clic en el botón, se mostrará una alerta.
+    alert('Botón clickeado.');
+});
+</code></pre>]]></description><link>https:/joey.works/machetes-de-java-script/</link><guid isPermaLink="false">https:/joey.works/machetes-de-java-script/</guid><category><![CDATA[javascript]]></category><category><![CDATA[machete]]></category><dc:creator><![CDATA[Joel A. Villarreal Bertoldi]]></dc:creator><pubDate>Thu, 04 Nov 2021 22:48:00 GMT</pubDate></item></channel></rss>

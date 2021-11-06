@@ -54,7 +54,7 @@ export default {
         { property: "og:type", content: 'article' },
         { property: "og:title", content:'¿Y este blog?' },
         { property: "og:description", content: this.ogDescription },
-        { property: "og:url", content: `${this.config.siteUrl}/about/` },
+        { property: "og:url", content: `${this.config.siteUrl}/ask-me-anything/` },
         { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
