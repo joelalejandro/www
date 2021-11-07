@@ -8,6 +8,10 @@
     {
       "source": "/preguntame",
       "destination": "/ask-me-anything/"
+    },
+    {
+      "source": "/charlas",
+      "destination": "/talks/"
     }
   ]
 }
