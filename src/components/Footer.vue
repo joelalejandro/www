@@ -36,12 +36,6 @@
         <ul class="flex sm:justify-end -mx-2">
           <li class="px-2">
             <g-link
-              to="/"
-              class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
-            >Portada</g-link>
-          </li>
-          <li class="px-2">
-            <g-link
               to="/about/"
               class="border-b border-transparent hover:border-gray-400 transition-colors duration-300"
             >Acerca de</g-link>

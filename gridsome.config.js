@@ -6,9 +6,9 @@ const rssOptions = {
   feedOptions: {
     title: 'joey.works | Trabajos e ideas de Joel A. Villarreal Bertoldi',
     description: '¡Hola! Soy Joey, un emprendedor de Córdoba, Argentina. Me dedico al diseño gráfico y al desarrollo de software. En este espacio comparto algunas ideas y trabajos que voy haciendo.',
-    feed_url: 'https://joey.works/feed.xml',
-    site_url: 'https://joey.works',
-    image_url: 'https://joey.works/android-chrome-512x512.png',
+    feed_url: 'https://joey.ar/feed.xml',
+    site_url: 'https://joey.ar',
+    image_url: 'https://joey.ar/android-chrome-512x512.png',
     language: 'es',
     custom_namespaces: {
       'webfeeds': 'http://webfeeds.org/rss/1.0'
@@ -18,8 +18,8 @@ const rssOptions = {
     copyright: '2020-hoy, Joel A. Villarreal Bertoldi',
     ttl: 60,
     custom_elements: [
-      { 'webfeeds:logo': 'https://joey.works/favicon-32x32.png' },
-      { 'webfeeds:icon': 'https://joey.works/android-chrome-512x512.png' },
+      { 'webfeeds:logo': 'https://joey.ar/favicon-32x32.png' },
+      { 'webfeeds:icon': 'https://joey.ar/android-chrome-512x512.png' },
       { 'webfeeds:related': { _attr: { layout: 'card', target: 'browser' } } },
       { 'webfeeds:analytics': { _attr: { id: 'UA-163336812-1', engine: 'GoogleAnalytics' } } },
     ],
@@ -27,7 +27,7 @@ const rssOptions = {
   feedItemOptions: node => ({
     title: node.title,
     description: node.description,
-    url: 'https:/joey.works' + node.path,
+    url: 'https:/joey.ar' + node.path,
     author: node.author,
     date: node.date,
     categories: node.tags,
@@ -41,7 +41,7 @@ const rssOptions = {
 module.exports = {
   siteName: 'joey.works | Trabajos e ideas de Joel A. Villarreal Bertoldi',
   siteDescription: "¡Hola! Soy Joey, un emprendedor de Córdoba, Argentina. Me dedico al diseño gráfico y al desarrollo de software. En este espacio comparto algunas ideas y trabajos que voy haciendo.",
-  siteUrl: 'https://joey.works',
+  siteUrl: 'https://joey.ar',
   titleTemplate: `%s`,
   icon: 'src/favicon.png',
 
@@ -85,7 +85,7 @@ module.exports = {
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
-        siteUrl: 'https://joey.works'
+        siteUrl: 'https://joey.ar'
       },
     },
     {
@@ -99,9 +99,9 @@ module.exports = {
         contentTypeName: 'Post',
         feedItemOptions: node => ({
           title: node.title,
-          description: converter.makeHtml(node.content.replace(/\/images/g, "https://joey.works/images")),
-          url: 'https:/joey.works' + node.path,
-          guid: 'https:/joey.works' + node.path,
+          description: converter.makeHtml(node.content.replace(/\/images/g, "https://joey.ar/images")),
+          url: 'https:/joey.ar' + node.path,
+          guid: 'https:/joey.ar' + node.path,
           author: node.author,
           date: node.date,
           categories: node.tags,

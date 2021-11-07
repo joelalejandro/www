@@ -42,7 +42,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: 'Preguntas',
+      title: 'Preguntale a Joey',
       script: [injectCommento()],
       meta: [
         {
@@ -52,13 +52,13 @@ export default {
         },
 
         { property: "og:type", content: 'article' },
-        { property: "og:title", content:'¿Y este blog?' },
+        { property: "og:title", content: 'Preguntale a Joey' },
         { property: "og:description", content: this.ogDescription },
         { property: "og:url", content: `${this.config.siteUrl}/ask-me-anything/` },
         { property: "og:image", content: this.ogImageUrl },
 
         { name: "twitter:card", content: "summary_large_image" },
-        { name: "twitter:title", content: '¿Y este blog?' },
+        { name: "twitter:title", content: 'Preguntale a Joey' },
         { name: "twitter:description", content: this.ogDescription },
         { name: "twitter:site", content: "@joelalejandro" },
         { name: "twitter:creator", content: "@joelalejandro" },

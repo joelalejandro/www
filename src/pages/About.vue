@@ -10,7 +10,7 @@
       </nav>
       <article class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16 border-b border-gray-300 pb-10 mb-16">
         <div class="markdown text-lg leading-normal text-gray-700 dark:text-gray-300">
-          <img src="https://pbs.twimg.com/profile_images/1356413015420264448/dsWrENUC_400x400.jpg">
+          <img src="https://lh6.googleusercontent.com/-sRk0Wik_Ioc/AAAAAAAAAAI/AAAAAAAAD3Q/wntAmY_aVQI/photo.jpg">
           <p>Mi nombre es Joel Alejandro Villarreal Bertoldi (sí, mi nombre es ideal para romper maquetado de formularios con sus portentosos 34 caracteres con espacios).</p>
           <p>Nací el 15 de enero de 1990, tan capricorniano que arruiné los planes de mis padres de nacer en Acuario. Al momento que leés esta pantalla, debería tener unos {{ new Date().getFullYear() - 1990 }} años, dadas ciertas condiciones (como por ejemplo, estar vivo).</p>
           <p>Me tocó vivir la infancia y adolescencia de la web. Programo desde mediados del año 2000, y el único lenguaje que me acompañó incansablemente durante casi dos décadas fue y es JavaScript. Mientras tanto, jugué con BASIC, QBASIC y QuickBASIC, Visual Basic, DHTML (cuando el único navegador que gobernaba Internet era Internet Explorer 5.5), ASP (antes de .NET), PHP, C#, SQL, PL/SQL y más recientemente JavaScript y su primo estricto, TypeScript, CSS y su prima superpoderosa, SCSS.</p>
@@ -31,7 +31,7 @@ export default {
   },
   metaInfo () {
     return {
-      title: 'Acerca de mí',
+      title: 'Acerca de mí | Joel A. Villarreal Bertoldi',
       meta: [
         {
           key: 'description',
