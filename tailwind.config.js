@@ -609,7 +609,7 @@ module.exports = {
       '500': '500ms',
       '700': '700ms',
       '1000': '1000ms',
-    },
+    }
   },
   variants: {
     accessibility: ['responsive', 'focus'],
@@ -646,6 +646,7 @@ module.exports = {
     fontWeight: ['responsive', 'hover', 'focus'],
     height: ['responsive'],
     inset: ['responsive'],
+    left: ['responsive'],
     justifyContent: ['responsive'],
     letterSpacing: ['responsive'],
     lineHeight: ['responsive'],

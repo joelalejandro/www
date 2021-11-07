@@ -11,37 +11,38 @@
             </g-link>
           </h1>
         </div>
-        <h1 class="text-4xl sm:text-5xl md:text-6xl font-caption font-bold mb-1 dark:text-teal-300">Charlas</h1>
-        <p class="text-grey-dark text-lg sm:text-3xl dark:text-teal-600">Una lista de las charlas que he dado en diferentes espacios.</p>
+        <h1 class="text-4xl sm:text-5xl md:text-6xl font-caption font-bold mb-1 dark:text-gray-300">Charlas</h1>
+        <p class="text-grey-dark text-lg sm:text-3xl dark:text-gray-600">Una lista de las charlas que he dado en diferentes espacios.</p>
+        <p class="text-grey-dark text-md dark-text-gray-600">Podés ver cada charla haciendo click en su título. En algunos casos son videos, en otros sólo presentaciones.</p>
       </header>
       <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
         <g-link to="/" class="text-gray-900 dark:text-gray-400 border-gray-400 text-sm border opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity duration-300">&larr; Volver a la portada</g-link>
       </nav>
       <article class="max-w-xl md:max-w-2xl xl:max-w-3xl mx-auto px-6 sm:px-12 pt-16 border-b border-gray-300 pb-10 mb-16">
-        <div class="relative wrap overflow-hidden p-10 h-full">
-            <div class="text-center -mb-3 ml-1 z-index-2 text-2xl text-gray-700">▲</div>
-            <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border" style="left: 50%"></div>
+        <div class="relative wrap overflow-hidden md:p-10 h-full">
+            <div class="absolute z-index-2 text-2xl text-gray-700 left-timeline-arrow md:centered-timeline-arrow">▲</div>
+            <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-timeline-border md:centered-timeline-border"></div>
 
             <section v-for="(year, yearIndex) in Object.keys(talks).reverse()" :key="year">
               <section v-for="(talk, index) in talks[year]" :key="talk.title">
-                <div :class="`mb-8 flex justify-between w-full ${yearIndex === 0 && index === 0 ? 'pt-8' : ''} ${index % 2 ? 'flex-row-reverse left-timeline' : 'right-timeline'}`">
-                  <div class="order-1 w-5/12"></div>
+                <div :class="`mb-8 flex md:justify-between w-full ${yearIndex === 0 && index === 0 ? 'pt-8' : ''} ${index % 2 ? 'md:flex-row-reverse left-timeline' : 'right-timeline'}`">
+                  <div class="order-1 md:w-5/12"></div>
                   <div class="z-20 flex items-center order-1 bg-gray-800 dark:bg-gray-600 shadow-xl w-16 h-8 rounded-full mt-4">
-                    <h1 class="mx-auto text-white font-semibold text-lg">{{talk.date.substr(0, 5)}}</h1>
+                    <h1 class="mx-auto text-white font-semibold text-md">{{talk.date.substr(0, 5)}}</h1>
                   </div>
-                  <div :class="`dark-hover:bg-gray-700 hover:bg-gray-300 rounded-lg order-1 w-5/12 p-4 cursor-pointer ${index % 2 ? 'text-right' : 'text-left'}`" @click.prevent="open(talk)">
-                    <h3 class="mb-3 font-bold dark:text-white text-xl"><a :href="talk.link" target="_blank">{{talk.title}}</a></h3>
+                  <div :class="`dark-hover:bg-gray-700 hover:bg-gray-300 rounded-lg order-1 w-full md:w-5/12 p-4 cursor-pointer ${index % 2 ? 'md:text-right' : 'text-left'}`" @click.prevent="open(talk)">
+                    <h3 class="mb-3 font-bold dark:text-white text-sm md:text-xl"><a :href="talk.link" target="_blank">{{talk.title}}</a></h3>
                     <p class="text-sm font-medium leading-snug dark:text-gray-500 tracking-wide text-opacity-100">{{talk.venue}}</p>
                   </div>
                 </div>
               </section>
 
-              <div :class="`${yearIndex + 1 === Object.keys(talks).length ? '-mb-10' : 'mb-8'} flex justify-between items-center w-full right-timeline`">
-                <div class="order-1 w-5/12"></div>
-                <div class="z-20 flex items-center order-1 bg-blue-800 shadow-xl w-48 h-24 rounded-full">
-                  <h1 class="mx-auto font-semibold text-4xl text-white">{{year}}</h1>
+              <div :class="`${yearIndex + 1 === Object.keys(talks).length ? 'md:-mb-10' : 'mb-8'} flex justify-between items-center w-full right-timeline`">
+                <div class="md:order-1 md:w-5/12"></div>
+                <div class="z-20 flex items-center order-1 bg-teal-800 shadow-xl w-full h-16 md:w-48 md:h-24 rounded-full">
+                  <h1 class="mx-auto font-semibold text-xl md:text-4xl text-white">{{year}}</h1>
                 </div>
-                <div class="order-1 w-5/12 px-6 py-4">
+                <div class="md:order-1 md:w-5/12 md:px-6 md:py-4">
                 </div>
               </div>
             </section>
@@ -104,7 +105,7 @@ export default {
       return {
         2021: [
           {
-            link: '#',
+            link: 'https://youtu.be/RWbvsLUKLLY?t=12179',
             title: 'JavaScript, Calabozos y Dragones',
             venue: '5Stars Conf',
             date: '06/11/2021'

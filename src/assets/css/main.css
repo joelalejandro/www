@@ -10,6 +10,28 @@
 
 @import 'tailwindcss/utilities';
 
+.left-timeline-arrow {
+  left: 4.5%;
+  top: -10px;
+}
+
+.left-timeline-border {
+  left: 8%;
+}
+
+@media (min-width: 768px) {
+  .md\:centered-timeline-border {
+    left: 50%;
+  }
+
+  .md\:centered-timeline-arrow {
+    text-align: center;
+    left: 1px;
+    width: 100%;
+    top: 16px;
+  }
+}
+
 .font-caption {
   font-family: "chaparral-pro-caption";
 }
