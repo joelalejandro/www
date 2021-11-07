@@ -13,7 +13,7 @@
         </div>
         <h1 class="text-4xl sm:text-5xl md:text-6xl font-caption font-bold mb-1 dark:text-gray-300">Charlas</h1>
         <p class="text-grey-dark text-lg sm:text-3xl dark:text-gray-600">Una lista de las charlas que he dado en diferentes espacios.</p>
-        <p class="text-grey-dark text-md dark-text-gray-600">Podés ver cada charla haciendo click en su título. En algunos casos son videos, en otros sólo presentaciones.</p>
+        <p class="text-grey-dark text-md dark:text-gray-600">Podés ver cada charla haciendo click en su título. En algunos casos son videos, en otros sólo presentaciones.</p>
       </header>
       <nav class="absolute top-0 left-0 z-20 mt-6 ml-6">
         <g-link to="/" class="text-gray-900 dark:text-gray-400 border-gray-400 text-sm border opacity-75 hover:opacity-100 rounded-full px-4 py-2 transition-opacity duration-300">&larr; Volver a la portada</g-link>
