@@ -14,9 +14,9 @@
             class="text-gray-700 text-lg sm:text-3xl italic dark:text-gray-300"
           >Trabajos e ideas de Joel A. Villarreal Bertoldi</p>
           <nav class="p-6 grid grid-flow-row md:grid-flow-col gap-4">
-            <g-link to="/talks" class="text-gray-900 hover:bg-gray-300 dark:text-gray-400 border-gray-400 text-lg border rounded-full px-4 py-2 transition duration-300">Charlas</g-link>
-            <g-link to="/ir" class="text-gray-900 hover:bg-gray-300 dark:text-gray-400 border-gray-400 text-lg border rounded-full px-4 py-2 transition duration-300">#IngenieríaReversa</g-link>
-            <g-link to="/ask-me-anything" class="text-gray-900 hover:bg-gray-300 dark:text-gray-400 border-gray-400 text-lg border rounded-full px-4 py-2 transition duration-300">Preguntame</g-link>
+            <g-link to="/talks" class="text-gray-900 hover:bg-gray-300 dark-hover:text-gray-900 dark:text-gray-400 border-gray-400 text-lg border rounded-full px-4 py-2 transition duration-300">Charlas</g-link>
+            <g-link to="/ir" class="text-gray-900 hover:bg-gray-300 dark-hover:text-gray-900 dark:text-gray-400 border-gray-400 text-lg border rounded-full px-4 py-2 transition duration-300">#IngenieríaReversa</g-link>
+            <g-link to="/ask-me-anything" class="text-gray-900 hover:bg-gray-300 dark-hover:text-gray-900 dark:text-gray-400 border-gray-400 text-lg border rounded-full px-4 py-2 transition duration-300">Preguntame</g-link>
           </nav>
         </div>
       </header>
